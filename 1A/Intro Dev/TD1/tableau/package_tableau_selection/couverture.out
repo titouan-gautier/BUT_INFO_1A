@@ -1,0 +1,19 @@
+mode: set
+table/tableau/package_tableau_selection/selection.go:6.52,7.16 1 1
+table/tableau/package_tableau_selection/selection.go:11.2,11.19 1 1
+table/tableau/package_tableau_selection/selection.go:15.2,15.32 1 1
+table/tableau/package_tableau_selection/selection.go:20.2,20.19 1 1
+table/tableau/package_tableau_selection/selection.go:23.2,23.17 1 1
+table/tableau/package_tableau_selection/selection.go:26.2,26.16 1 1
+table/tableau/package_tableau_selection/selection.go:7.16,9.3 1 1
+table/tableau/package_tableau_selection/selection.go:11.19,13.3 1 1
+table/tableau/package_tableau_selection/selection.go:15.32,16.18 1 1
+table/tableau/package_tableau_selection/selection.go:16.18,18.4 1 1
+table/tableau/package_tableau_selection/selection.go:20.19,22.3 1 1
+table/tableau/package_tableau_selection/selection.go:23.17,25.3 1 1
+table/tableau/package_tableau_selection/selection.go:29.45,30.28 1 1
+table/tableau/package_tableau_selection/selection.go:33.2,33.33 1 1
+table/tableau/package_tableau_selection/selection.go:38.2,38.13 1 1
+table/tableau/package_tableau_selection/selection.go:30.28,32.3 1 1
+table/tableau/package_tableau_selection/selection.go:33.33,34.25 1 1
+table/tableau/package_tableau_selection/selection.go:34.25,36.4 1 1

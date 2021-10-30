@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <div>
+       Compte Utilisateur
+       <br>
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" name="username" id="username" required maxlenght="40" />
+    </div>
+    <div>
+        <label for="mdp">Mot de passe</label>   
+        <input type="password" name="MotDePasse" id="mdp" required minlength="8" />
+    </div>
+    <div>
+        <label for="email">Adresse mail</label>
+        <input type="email" name="mail" id="email" />
+    </div>
+    <br>
+    <div>
+        Genre
+        <br>
+        <label>
+            Homme
+            <input type="radio" name="genre" required value="Homme" />
+        </label>
+        <label>
+            Femme
+            <input type="radio" name="genre" required value="Femme" />
+        </label>
+        <label>
+            Autre
+            <input type="radio" name="genre" required value="Autre" />
+        </label>
+    </div>
+    <br>
+    <div>
+        <label for="name">Nom</label>
+        <input type="text" name="Nom" id="name" />
+    </div>
+    <div>
+        <label for="surname">Prenom</label>
+        <input type="text" name="Prenom" id="surname" />
+    </div>
+    <div>
+        <label for="birthd">Date de naissance</label>
+        <input type="date" name="DateNaissance" id="birthd" required min="1900-01-01" max="2020-12-31" />
+    </div>
+    <div>
+        <label for="adresse">Adresse postale</label>
+        <input type="text" name="AdressePostale" id="adresse" />
+    </div>
+    <div>
+        <label for="zipcode">ZIP Code</label> 
+        <input type="text" id="zipcode" pattern="[0-9]{4}" title="Four digit zip code" />
+    </div>
+
+
+</body>
+
+</html>
