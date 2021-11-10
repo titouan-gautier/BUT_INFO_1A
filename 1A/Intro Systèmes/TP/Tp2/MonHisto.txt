@@ -1,0 +1,1000 @@
+go test
+go test -cover
+cd etudiant/
+go test
+cd tri/package_tri_fusion/test/
+go run
+go run test.go 
+clear
+go run test.go 
+go run test2.go 
+cd Documents/.@IUT/
+ls
+cd IUT2021-2022/
+git pull
+cd 1A/Intro\ Systèmes/
+ls
+cd TP/Tp1/
+ls
+cd Trois/
+ls
+cd Dossier/
+ls
+cd ..
+cd Tp2
+cd
+cd Documents/.@IUT/IUT2021-2022/1A/Intro\ Systèmes/TP/Tp2/
+ls
+man history
+history --help
+history MonHisto.txt
+touch MonHisto.txt
+history MonHisto.txt
+history MonHisto.txt -n
+history -n MonHisto.txt 
+gedit MonHisto.txt 
+history
+history --help
+cp history MonHisto.txt 
+history -a MonHisto.txt 
+gedit MonHisto.txt 
+rm MonHisto.txt 
+touch MonHisto.txt
+history -r MonHisto.txt 
+gedit MonHisto.txt 
+history -n
+apt install firefox
+sudo apt install firefox
+gedit
+sudo apt install gedit
+gedit
+code
+sudo apt install thunderbird
+sudo apt install ./ps-pulse-linux-9.1r11.4-b8575-64-bit-installer.deb
+ls
+cd Téléchargements/
+ls
+sudo apt install ps-pulse-linux-9.1r12.0-b10247-64-bit-installer.deb
+apt install network-manager-openconnect-gnome
+sudo apt install network-manager-openconnect-gnome
+sudo apt install ./ps-pulse-linux-9.1r11.4-b8575-64-bit-installer.deb
+dpkg -i CLIENT.deb
+sudo dpkg -i CLIENT.deb
+sudo apt install ps-pulse-linux-9.1r11.4-b8575-64-bit-installer.deb
+sudo apt install /home/titouangautier/Téléchargements/ps-pulse-linux-9.1r12.0-b10247-64-bit-installer.deb 
+sudo apt install /home/titouangautier/Téléchargements/aA
+sudo apt install /home/titouangautier/Téléchargements/Nextcloud-3.3.4-x86_64.AppImage
+cd /home/titouangautier/Téléchargements
+./Nextcloud-3.3.4-x86_64.AppImage
+chmod +x Nextcloud-3.3.4-x86_64.AppImage
+./Nextcloud-3.3.4-x86_64.AppImage
+sudo apt install golang*
+sudo apt install golang
+cd ..
+cd Documents/Apprentissage\ du\ go/src/parti\ 3/
+go run readfile.go 
+touch test
+go run readfile.go 
+cd ..
+cd Apprentissage\ du\ go/
+cd src/
+cd parti3/
+ls
+gedit fscanln.go 
+gedit write.go 
+go build write.go 
+./write 9
+gedit Table\ de\ Multiplication 
+./write -n=9
+gedit Table\ de\ Multiplication 
+go run readfile.go 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+sudo vi/etc/hostname
+sudo vi /etc/hostname
+go build fscanln.go 
+sudo vi /etc/hostname
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+gedit monfichier 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build fscanln.go 
+./fscanln 
+go build bufio.go 
+go run bufio
+./bufio 
+go build bufio.go 
+./bufio 
+go build bufio.go 
+./bufio 
+go build bufio.go 
+./bufio 
+go build bufio.go 
+./bufio 
+sudo apt install libreoffice
+cd Documents/Apprentissage\ du\ go/src/parti3/
+ls
+gedit bufio.go
+sudo apt install discord
+sudo dpkg -i discord.deb
+sudo apt install libappindicator1
+sudo apt install libc++1
+cd ..
+cd Téléchargements/
+sudo dpkg -i discord.deb
+ls
+sudo dpkg -i discord-0.0.16.deb
+cd ..
+cd Documents/Apprentissage\ du\ go/src/parti3/
+go build bufio.go 
+./bufio
+go build bufio.go 
+./bufio
+go build bufio.go 
+./bufio
+go build bufio.go 
+./bufio
+cd Documents/Introdev/Bibliothèques/
+go mod init lib
+ls
+less go.mod 
+rm go.mod 
+go mod init titouan
+ls
+rm go.mod
+go mod init titouan
+rm go.mod
+go mod init tab
+rm go.mod
+go mod init table
+sudo apt install virtualstudiocode
+sudo apt install vscode
+cd .. ..
+cd ..
+cd Téléchargements/
+sudo dpkg -i code_1.60.2-1632313585_amd64.deb 
+sudo apt-get install virtualstudiocode
+sudo dpkg -i code_1.60.2-1632313585_amd64.deb 
+sudo apt install --fix-broken
+sudo dpkg -i code_1.60.2-1632313585_amd64.deb 
+ls
+cd tableau
+touch recherche_test.go
+cd ..
+cd Bibliothèques/
+ls
+cd tableau/recherche/
+ls
+go test
+go mod tidy
+go test
+cd tableau/package_tableau_recherche/
+go test
+cd ..
+cd Documents/Introdev/Bibliothèques/
+cd Tabint/
+touch package_Tabint.go
+touch package_Tabint_test.go
+cd ..
+cd minTabint/
+touch package_minTab.go
+touch package_minTab_test.go
+cd ..
+cd
+cd Documents/Introdev/Bibliothèques/
+cd tableau/
+touch recherche.go
+touch selection.go
+touch dichotomie.go
+touch minimum.go
+cd ..
+cd tableautrie/
+touch minimum_tri.go
+touch dichotomie_tri.go
+touch selection_tri.go
+touch recherche_tri.go
+cd basiques/nombreparfait/
+go test
+touch test
+touch test.go
+go test
+go test
+touch test.go
+go run test.go 
+go test
+touch test.go
+go test
+touch test.go
+go run test.go 
+go test
+touch test.go
+go run test.go
+go test
+cd ..
+go run test .go
+go run test.go
+ls
+go run test.go 
+touch test.go
+go run test.go 
+go test
+touch test.go
+gedit test.go 
+go run test.go 
+go test
+cd Documents/
+go run test2.go 
+cd ..*
+cd Téléchargements/
+go run test2.go
+cd ..
+cd Documents/
+cd ..
+cd Documents/
+go run test2.go
+go test
+cd Documents/
+go run test2.go 
+go test
+clear
+go test
+clear
+go test
+clear
+go test
+clear
+go test
+go test*
+go test
+go test Premier
+go test
+go test Premier
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+cd ..
+ls
+cd basique/nombrepremier
+cd basique/nombrepremier.go
+cd basiques/nombrepremier/
+go test
+cd test
+cd ..
+cd recherche/
+cd nombrespremiers
+cd test/
+go test
+cd ..
+cd test1
+go test
+cd ..
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+go run test/test.go 
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+go test
+go run recursif-iteratif/
+go run recursif-iteratif/recursif-iteratif.go 
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+go test
+cd ..
+cd tabtab/
+go test
+cd ..
+cd matrice/
+go test
+clear
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+cd ..
+cd basiques/premier
+cd basiques/premiers
+cd basiques/nombrepremier
+go test
+cd ....
+cd ..
+cd recherche/nombrespremiers2
+go run premier/premier.go 
+*
+go run premier/premier.go 
+go run test/test.go 
+cd tableau/package_tableau_recherche/
+go test
+cd ..
+cd package_tableau_minimum/
+go test
+sudo apt-get install cifs-utils
+sudo mount.cifs // WindowsPC / Share / home / geek / Bureau / Windows-Share
+sudo mount.cifs // Partage\ Windows/
+cd ..
+sudo mount.cifs // Partage\ Windows/
+sudo mount.cifs // WindowsPC / Share / home / geek / Bureau / Windows-Share
+sudo mount.cifs // Documents/Partage\ Windows/ -o user=titouangautier
+sudo mount.cifs // GAUTIER-Titouan / Share / home / titouangautier / Documents/Partage\ Windows/
+sudo apt-get samba
+sudo apt-get install samba
+sudo smnpasswd -a titouangautier
+sudo smbpasswd -a titouangautier
+clearsudo mount.cifs // WindowsPC / Share
+vim /etc/samba/smb.conf
+gedit /etc/
+gedit /etc/samba/smb.conf 
+sudo apt install vim
+vim /etc/samba/smb.conf
+cd etc/samba
+cd etc/samba/
+cd ..
+cd etc/samba/
+ls
+cd ..
+cd etc/samba/
+gedit smb.conf.bak 
+ls
+touch smb.conf
+sudo touch smb.conf
+ls
+gedit smb.conf
+ls
+gedit smb.conf
+sudo gedit smb.conf
+cd
+samba -a titouangautier
+smbpasswd -a titouangautier
+smbpasswd -a 
+sudo smbpasswd -a titouangautier
+service samba restart
+sudo service samba restart
+[global]
+## Browsing/Identification ###
+# Change this to the workgroup/NT-domain name your Samba server will part of
+# server string is the equivalent of the NT Description field
+[partage]
+path=/media/partage
+read only = no
+mv /etc/samba/smb.conf /etc/samba/smb.conf.bak
+sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.bak
+cd /etc/samba/
+ls
+cd ..
+vim /etc/samba/smb.conf
+ifconfig
+sudo apt install net-tools
+ifconfig
+ifconfig -a
+ls
+cd tableau
+ls
+cd package_tableau_selection/
+go test
+cd ..
+ls
+cd ..
+ls
+cd tableautrie/
+cd package_tableautrie_dichotomie_tri/
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+go test
+clear
+go test
+go test -cover
+cd ..
+cd tableau/package_tableau_recherche/
+go test -cover
+cd ..
+cd tableautrie/package_tableautrie_dichotomie_tri/
+go test -cover
+cd ..
+go test - cover tableau/package_tableau_minimum/
+cd tableau
+cd package_tableau_minimum/
+go test
+go test -cover
+go test
+go test -cover
+go test
+go test -cover
+go test
+go test -cover
+go test -cover*
+go test -cover
+ls
+go test -cover
+cd tableau/package_tableau_minimum/
+go test
+go test -cover
+cd ..
+cd tableautrie/package_tableautrie_dichotomie_tri/
+go test
+go test -cover
+cd ..
+cd tableau/package_tableau_selection/
+go test -cover
+cd ..
+cd package_tableau_recherche/
+go test -cover
+cd ..
+cd package_tableau_selection/
+go test -cover
+go test
+go test -cover
+go test
+go run test/test.go 
+go test
+go test -cover
+cd Documents/
+sudo tar xvzf go1.17.1.linux-amd64.tar.gz 
+cd go
+./configure
+ls
+cd
+cd Documents/Introdev/go
+./configure
+sudo ./configure
+export PATH=$PATH:/usr/local/go/bin
+go version
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
+cd ..
+ls
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.1.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.1.linux-amd64.tar.gz
+sudo apt-get purge golang
+sudo tar -C /usr/local -xzf go1.17.1.linux-amd64.tar.gz
+mkdir ~/.go
+ls
+GOROOT=/usr/local/go
+ls
+cd ..
+ls
+GOPATH=~/.go
+PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+sudo update-alternatives --install "/usr/bin/go" "go" "/usr/local/go/bin/go" 0
+sudo update-alternatives --set go /usr/local/go/bin/go
+go version
+cd tableau/package_tableau_selection/
+go test -cover
+cd ..
+cd package_tableau_minimum/
+go test -cover
+cd..
+cd ..
+cd package_tableau_selection/
+go test -cover
+cd tableau/package_tableau_s
+cd tableau/package_tableau_selection/
+go test -cover
+go test -coverprofile=couverture.out
+go test -cover
+go test -coverprofile=couverture.out
+func Test1(t *testing.T) {
+var tab []int = []int{1, 2, 3, 4, 5, 6, 7, 8}
+var n int = 5
+var tb []int
+var b bool
+tb, b = selection(tab, n)
+if b != true || verif(tb, []int{1, 2, 3, 4, 5}) != true {
+t.Fail() }
+go test -coverprofile=couverture.out
+cd ..
+cd package_tableau_minimum/
+go test -coverprofile=couverture.out
+go tool cover -html=couverture.out
+go test -cover
+go test -coverprofile=couverture.out
+go tool cover -html=couverture.out
+go test -cover
+go test -coverprofile=couverture.out
+go tool cover -html=couverture.out
+cd ..
+cd package_tableau_recherche+
+go test -cover
+go test -coverprofile=couverture.out
+go tool cover -html=couverture.out
+go run tri/package_tri_insertion/insertion_test.go 
+cd tri/package_tri_insertion/test/
+go run test.go 
+cd ..
+cd package_tri_insertion/test/
+go run test.go 
+cd ..
+cd package_tri_insertionenplace/
+cd test/
+go run test.go 
+clear
+cd ..
+go run
+ls
+go test
+go test -cover
+cd ..
+cd package_tri_insertion
+cd test/
+go run test.go 
+go run
+go run test.go 
+cd ..
+go run
+go test
+cd test/
+go run test.go 
+cd
+cd ..
+date
+date -h
+date --help
+man dc date
+man date
+date --date=25 décembre 2021
+date --date=25 décembre
+date --date=25
+date --date=25+décembre+2021
+date --date=25 décembre 2021
+man date
+sate
+date
+date --date=25 décembre 2021
+date --date=25 décembre+2021
+date --date="25 decembre 2021"
+date --help
+man type
+help type
+date
+man date
+date --rfc-3339=FMT
+date --rfc-3339=25 décembre 2021
+date --rfc-3339=date
+date --rfc
+date --rfc-3339=seconds
+man date
+date --rfc-email
+date --rfc-email=date
+date --rfc-email
+man date
+date --utc
+date --utc=date
+man date
+date --iso-8601
+date --iso-8601=date
+man date
+date %A
+date %a
+date --iso-8601=%a
+man date
+%Adate
+date %A
+date
+date=%A
+date
+date --date='TZ="America/Los_Angeles" 09:00 next Fri
+25 décembre 2021
+date --date='TZ="America/Los_Angeles" 09:00 next Fri'
+apropos date
+date +%A
+date +%a
+date +%d
+date +%D
+date +%F
+date +%f
+date +%B
+date +%A +%B +%C
+date +%A%B%C
+date +%A %B %C
+date +%A_%B_%C
+date +%D
+date +%d
+date +%d_%B
+date +%d_%B_%Y
+date +%d-_%B-%Y
+date + "%d %B %Y"
+date + "%d%B%Y"
+date +"%d%B%Y"
+date +"%d %B %Y"
+help type
+date cal
+cal
+apropos calendar
+apropos cal
+help cal
+man cal
+cal -e
+cal -e -e -e
+cal -j1 -m12
+date cal -e
+date cal
+calendar -e
+calendar --e
+cal --e
+cal
+calendar
+cal
+man cal
+cal 31jy -A 12 -B 12 -d 2021-12
+clear
+man cal
+cal -h
+cal -31] [-A months] [-B months] [-d yyyy-mm]
+cal -e 2021
+ncal
+ncal -e
+cd /home/titouangautier/Documents/
+cd
+pwd
+cd
+pwd
+cd Documents/
+ls
+cd Introsys/
+ls
+cd Tp1/
+clear
+ls
+pwd
+cd
+ls vous
+ls ~
+ls ~vous
+ls /home/titouangautier/
+ls ~titouangautier/
+ls titouangautier
+ls
+cd Documents/
+ls
+cd Introsys/
+cd Tp1/
+ls
+mkdir Trav
+mkdir Un
+mv Un
+mv
+mv --help
+cp Un
+man cp
+cp -T Un/ Trav/un
+rmdir UN
+rmdir Un
+mkdir Trav/Un 
+ls
+cd Trav/
+ls
+cd ..
+touch UnTexte.txt
+pwd
+ls
+cd tri/package_tri_insertion/test/
+go test
+go test.go
+go run test.go 
+cd ..
+cd package_tri_fusion/
+cd test/
+go run test.go 
+cd ..
+cd package_tri_insertion
+cd test/
+go run test.go 
+go run /home/titouangautier/Documents/Introdev/TD1/tri/package_tri_fusion/test/test.go
+cd ..
+cd package_tri_fusion/test/
+go run test.go
+cd ..
+cd package_tri_insertion/test/
+go run test.go 
+go run /home/titouangautier/Documents/Introdev/TD1/tri/package_tri_fusion/test/test.go
+cd ..
+cd package_tri_fusion/test/
+go run test.go 
+cd tri/package_tri_fusion/test/
+go run test.go 
+cd
+cd -pasbon
+cd Documents/
+ls
+cd /Introsys
+cd Introsys/
+ls
+cd Tp1/
+ls
+mkdir Un
+touch unTexte.txt /Un
+cd Un/
+touch UnTexte.txt
+ls
+cd ..
+ls
+rm unTexte.txt
+ls
+rm unTexte.txt
+rm UnTexte.txt
+cd Un/
+ls
+mkdir ../Deux
+ls
+ls ..
+rmdir Deux
+mkdir ../Deux
+ls
+cd ..
+ls
+cd Deux/
+cp ../Un/UnTexte.txt Deux
+ls
+rmdir deux
+rmdir Deux
+rm Deux
+cp ../Un/UnTexte.txt
+cp ../Un/UnTexte.txt UnTexte.txt
+ls
+mv ../Un/UnTexte.txt ../Un/leTexte.txt
+ls
+cd ..
+ls
+cd Un
+ls
+cd ..
+cd Trav/
+ls
+mvdir Deux Trav
+ls
+mv ../Deux/ 
+mv ../Deux/ Trav
+ls
+mv Trav Deux
+ls
+cd Un/
+ls
+rmdir Un
+cd ..
+rmdir Un
+mv ../Un Un
+ls
+cd ..
+rmdir Trav
+cd Trav/
+rmdir Deux
+cd Deux/
+ls
+rm UnTexte.txt 
+cd ..
+rmdir Deux/
+cd ..
+clear
+id
+man chmod
+cd Trois/
+mkdir Dossier
+chmod dossier
+ls -l Dossier/
+ls -L Dossier/
+chgrp Dossier
+man chgrp
+id
+man chown
+man chmod
+touch tets.txt
+ls -l tets.txt 
+man ls
+man ls -o ./Dossier/
+ls -o Dossier/
+ls -l
+ls
+ls -l
+ls -l illisible.txt
+chmod a illisible.txt 
+chmod a=illisible.txt
+chmod a=r illisible.txt 
+ls -l illisible.txt
+./cmd.sh
+chmod u=x cmd.sh
+./cmd.sh
+ls -l
+cd tri/package_tri_insertion
+go run test/test.go 
+go test
+go test -cover
+go test
+go test -cover
+go test -coverprofile=couverture.out
+go tool cover -html=couverture.out
+go test -cover
+cd ..
+cd package_tri_fusion/
+go test
+go run test/test.go 
+cd ..
+cd package_tri_insertion
+go test
+go test -cover
+cd ..
+cd package_tri_fusion/
+go test
+cd
+sudo apt-get install cifs-utils
+mkdir ~ / Desktop / Windows-Partager
+ls
+sudo mount.cifs // GAUTIER-TITOUAN / Share / home / titouangautier / Bureau / Windows-Share
+sudo mount.cifs // WindowsPC / Share / home / geek / Bureau / Windows-Share
+sudo mount.cifs // GAUTIER-TITOUAN / Share / home / titouangautier / Bureau / Windows-Share -o user = titouangautier
+sudo mount.cifs // GAUTIER-Titouan / Share / home / titouangautier / Bureau / Windows-Share -o user = titouangautier
+sudo mount.cifs // GAUTIER-Titouan / Share / home / titouangautier / Bureau / Windows-Partage -o user = titouangautier
+sudo mount.cifs // GAUTIER-titouan / Share / home / titouangautier / Bureau / Windows-Partage -o user = titouangautier
+sudo mount.cifs // GAUTIER-titouan / iut / home / titouangautier / Bureau / Windows-Partage -o user = titouangautier
+sudo mount.cifs // GAUTIER-Titouan / iut / home / titouangautier / Bureau / Windows-Partage -o user = titouangautier
+sudo mount.cifs // Gautier-Titouan / iut / home / titouangautier / Bureau / Windows-Partage -o user = titouangautier
+cd ..
+ls
+cd ..
+ls
+git push -u origin main
+git add .
+git commit -m "test"
+git add
+git add .
+cd IUT2021-2022/
+git add .
+git commit -m "test"
+git push -u origin main
+git push
+cd tri
+cd package_tri_fusion/
+go test
+clear
+go test
+go run test/test.go 
+go test
+go run test/test.go 
+sudo apt-add-repository ppa:danielrichter2007/grub-customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt install grub-customizer
+sudo cp -Rp /etc/grub.d /etc/grub.d.ori
+gksudo grub-customizer 
+pkexec grub-customizer
+go run struct.go
+go run src/struct.go 
+go run struct2.go 
+go run struct3.go 
+go run methode.go 
+go run methode2.go 
+go run etudiant/etudiant.go 
+cd ..
+pwd
+go mod init
+go mod init titouangautier
+go mod tidy
+go run src/etudiant/test/test.go 
+cd src/etudiant/
+go test
+go run test/test.go 
+go test
+go test -cover
+cd etudiant/
+go test
+cd tri/package_tri_fusion/test/
+go run
+go run test.go 
+clear
+go run test.go 
+go run test2.go 
+history -r MonHisto.txt 
+gedit MonHisto.txt 
+hsitory -a MonHisto.txt 
+history -a MonHisto.txt 
+gedit MonHisto.txt 
+history 
+history --man
+history --help
+history -w MonHisto.txt 
