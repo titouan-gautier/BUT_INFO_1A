@@ -6,11 +6,33 @@ body {
     --bw500: #DDE6EA ;
     --bw600: #F3F8FB ;
     --bw700: #FFFFFF ;
+   
     --burple100:#2407D8 ;
     --burple200:#5034FF;
     --burple300:#6D6AF4;
     --burple400:#BEBDFF;
     --burple500:#DFE8FF;
+    
+    --green100:#1877BC;
+    --green200:#0DB8AE;
+    --green300:#4EDBD2;
+    --green400:#9BFFF9;
+    --green500:#D9FFFD;
+
+    --red100: #EE1313;
+    --red200: #FD5D5D;
+    --red300: #FF9E9E;
+    --red400: #FFD4D4;
+
+    --greena100:#039700;
+    --greena200:#2AD027;
+    --greena300:#92F590;
+    --greena400:#C7FEC6;
+
+    --yellow100:#EA7E00;
+    --yellow200:#FFA53C;
+    --yellow300:#FFC27A;
+    --yellow400:#FFEBC5;
 }
 h2 {
     color: #7F8A8F;
@@ -60,10 +82,66 @@ h2 {
 .burple500 {
     background-color: var(--burple500)
 }
+.green100 {
+    background-color: var(--green100);
+}
+.green200 {
+    background-color: var(--green200);
+}
+.green300 {
+    background-color: var(--green300);
+}
+.green400 {
+    background-color: var(--green400);
+}
+.green500 {
+    background-color: var(--green500);
+}
+
+/* Alert Colors */
+
+.red100 {
+    background-color: var(--red100);
+}
+.red200 {
+    background-color: var(--red200);
+}
+.red300 {
+    background-color: var(--red300);
+}
+.red400 {
+    background-color: var(--red400);
+}
+.greena100 {
+    background-color: var(--greena100);
+}
+.greena200 {
+    background-color: var(--greena100);
+}
+.greena300 {
+    background-color: var(--greena100);
+}
+.greena400 {
+    background-color: var(--greena100);
+}
+.yellow100 {
+    background-color: var(--yellow100);
+}
+.yellow200 {
+    background-color: var(--yellow200);
+}
+.yellow300 {
+    background-color: var(--yellow300);
+}
+.yellow400 {
+    background-color: var(--yellow400);
+}
+
 
 /* Bouton */
 
-button {
+.boutonfat {
+    
     border-radius: 40px;
     border: none;
     color: var(--bw700);
@@ -78,9 +156,42 @@ button {
 
     transition: all case-in-out 125ms;
 }
-.bouton1 {
+
+.boutonmedium {
+    
+    border-radius: 32px;
+    border: none;
+    color: var(--bw700);
+    
+    padding: 20px 24px;
+    width: 157px;
+    height: 70px;
+}
+
+.boutonsmall {
+    
+    border-radius: 28px;
+    border: none;
+    color: var(--bw700);
+
+    width: 127px;
+    height: 48px;
+}
+.boutonfat.bouton1 {
     background: var(--burple200) ;
 }
-.bouton2 {
+.boutonfat.bouton2 {
     background: var(--burple100) ;
+}
+.boutonmedium.bouton1 {
+    background-color: var(--burple200);
+}
+.boutonmedium.bouton2 {
+    background-color: var(--burple100) ;
+}
+.boutonsmall.bouton1 {
+    background-color: var(--burple200);
+}
+.boutonsmall.bouton2 {
+    background-color: var(--burple100) ;
 }
