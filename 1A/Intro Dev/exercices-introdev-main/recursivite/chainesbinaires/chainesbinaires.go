@@ -18,6 +18,15 @@ calculeChaines(3) = [000 001 010 100 101] (l'ordre n'a pas d'importance)
 func calculeChaines(n int) (chaines []string) {
 	if n == 0 {
 		return []string{""}
+	} else {
+		for i:= 0 ; i < len(chaines) ; i++ {
+			if n == 0 {
+				chaines[]
+			}
+		}
+
+		}
+		chaines = append(chaines, []string{})
 	}
 
 	return chaines
