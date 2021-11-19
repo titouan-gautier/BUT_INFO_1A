@@ -19,15 +19,5 @@ func calculeChaines(n int) (chaines []string) {
 	if n == 0 {
 		return []string{""}
 	} else {
-		for i:= 0 ; i < len(chaines) ; i++ {
-			if n == 0 {
-				chaines[]
-			}
-		}
-
-		}
-		chaines = append(chaines, []string{})
+		
 	}
-
-	return chaines
-}

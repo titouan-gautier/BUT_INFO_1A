@@ -9,27 +9,16 @@ au plus petit.
 */
 
 func decroissant(tab []int) (trier []int) {
-	
-	if tab == nil {
-		return nil
-	}
-	if len(tab) == 0 {
-		return nil
-	}
-
-	for i := 0; i < len(tab); i++ {
-		trier = append(trier, tab[i])
-		var j int = 0
-		var v int = tab[i]
-		for j < len(trier) && trier[j] <= v {
-			j++
+	var i int = 1
+	for i < len(tab) {
+		v := tab[i]
+		j := i - 1
+		for j >= 0 && tab[j] < v {
+			tab[j+1] = tab[j]
+			j--
 		}
-		for j < len(trier) {
-			tmp := trier[j]
-			trier[j] = v
-			v = tmp
-			j++
-		}
+		tab[j+1] = v
+		i++
 	}
 	return trier
 }

@@ -12,13 +12,6 @@ nombres positifs.
 */
 
 func valabs(tab []int) (trier []int) {
-	
-	if tab == nil {
-		return nil
-	}
-	if len(tab) == 0 {
-		return nil
-	}
 
 	for i := 0; i < len(tab); i++ {
 		trier = append(trier, tab[i])
@@ -35,4 +28,11 @@ func valabs(tab []int) (trier []int) {
 		}
 	}
 	return trier
+}
+
+func absolue(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
 }
