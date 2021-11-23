@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: "Poppins" ;
+    src: url("/police/poppins-v15-latin-regular.woff"),
+         url("/police/poppins-v15-latin-regular.woff2");
+}
+
 body {
     --bw100: #181743 ;
     --bw200: #3F474B ;
@@ -34,8 +41,15 @@ body {
     --yellow300:#FFC27A;
     --yellow400:#FFEBC5;
 }
+
+h1 {
+    font-family: Poppins;
+    font-style: normal;
+}
+
 h2 {
     color: #7F8A8F;
+    font-family: "Poppins";
 }
 
 .couleur {
@@ -139,8 +153,15 @@ h2 {
 
 
 /* Bouton */
+button {
 
-.boutonfat {
+}
+
+.hbutton {
+    font-family: "Poppins",serif;
+}
+
+.large {
     
     border-radius: 40px;
     border: none;
@@ -148,8 +169,8 @@ h2 {
     
     padding: 24px 32px;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px ;
+    font-size: 24px;
+    line-height: 36px ;
     width: 194px;
     height: 84px;
 
@@ -157,41 +178,68 @@ h2 {
     transition: all case-in-out 125ms;
 }
 
-.boutonmedium {
+.medium {
     
     border-radius: 32px;
     border: none;
     color: var(--bw700);
     
     padding: 20px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
     width: 157px;
     height: 70px;
 }
 
-.boutonsmall {
+.small {
     
     border-radius: 28px;
     border: none;
     color: var(--bw700);
 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px ;
     width: 127px;
     height: 48px;
 }
-.boutonfat.bouton1 {
+
+.primary {
     background: var(--burple200) ;
 }
-.boutonfat.bouton2 {
-    background: var(--burple100) ;
+.primary:hover {
+    background-color: var(--burple100);
 }
-.boutonmedium.bouton1 {
-    background-color: var(--burple200);
+
+.secondary {
+    background-color: var(--bw700);
+    color: var(--bw100);
+    border: 3px solid var(--bw100);
 }
-.boutonmedium.bouton2 {
-    background-color: var(--burple100) ;
+.secondary:hover {
+    background-color: var(--bw100);
+    color: var(--bw700);
 }
-.boutonsmall.bouton1 {
-    background-color: var(--burple200);
+
+.tertiary {
+    background-color: var(--burple500);
+    color: var(--burple100);
 }
-.boutonsmall.bouton2 {
-    background-color: var(--burple100) ;
+.tertiary:hover {
+    background-color: var(--burple400);
+}
+
+.quaternary {
+    background-color: var(--bw700);
+    color: var(--burple200);
+}
+.quaternary:hover {
+    color: var(--burple100);
+}
+
+.lotbouton {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }

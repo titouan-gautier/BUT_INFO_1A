@@ -17,7 +17,7 @@ func valabs(tab []int) (trier []int) {
 		trier = append(trier, tab[i])
 		var j int = 0
 		var v int = tab[i]
-		for j < len(trier) && trier[j] <= v {
+		for j < len(trier) && trier[j] <= absolue(v) {
 			j++
 		}
 		for j < len(trier) {
