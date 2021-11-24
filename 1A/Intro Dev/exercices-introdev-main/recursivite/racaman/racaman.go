@@ -19,5 +19,35 @@ retournera -1)
 racaman(4) = 2
 */
 func racaman(n int) (an int) {
+	if n < 1 {
+		return -1
+	}
+	if n == 1 {
+		an = 1
+		return an
+	} else {
+		if tab(an) {
+			an = racaman(n-1) - 1
+		} else {
+			an = racaman(n-1) + n
+		}
+	}
 	return an
+}
+
+func tab(an int) (b bool) {
+	var nb int
+	var tableau []int
+	for i := 0; i < len(tableau); i++ {
+		if an != tableau[i] {
+			nb = nb + 1
+		}
+	}
+	
+	if nb == len(tableau) {
+		tableau = append(tableau, an)
+		return true
+	} else {
+		return false
+	}
 }

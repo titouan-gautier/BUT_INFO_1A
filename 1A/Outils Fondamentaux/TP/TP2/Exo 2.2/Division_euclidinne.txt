@@ -1,0 +1,10 @@
+La division euclidienne de polynomes a et b dit qu'il existe un unique
+couple de polynomes (q,r) tel que a = bq + r , avec 
+O <= degré de r <= degré de bq
+
+EX :
+
+a  = x³ + 2x² + x + 4
+b = x²
+
+x³ + 2x² + x + 4 = x²(x + 2) + X + 4

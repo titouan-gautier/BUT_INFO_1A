@@ -13,5 +13,14 @@ ordre croissant et false s'ils ne sont pas bien triés.
 */
 
 func bienrange(tab []int) (estrange bool) {
-	return estrange
+	var croissant bool = true
+	var decroissant bool = true
+
+	for i := 1; i < len(tab) && croissant; i++ {
+		croissant = tab[i-1] <= tab[i]
+	}
+	for i := 1; i < len(tab) && decroissant; i++ {
+		decroissant = tab[i-1] >= tab[i]
+	}
+	return croissant || decroissant
 }

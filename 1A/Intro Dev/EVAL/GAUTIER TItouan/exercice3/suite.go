@@ -12,12 +12,19 @@ une fonction qui n'est pas récursive rapportera moins de points.
 - un : le n-ième terme de la suite
 */
 
-func suite(n uint) (un uint) {
+/*func suite(n uint) (un uint) {
 	var i uint
-	for i = 0 ; i < n ; i++ {
-		un = 3 * un + 5
+	for i = 0; i < n; i++ {
+		un = 3*un + 5
 	}
 	return un
 }
-
-// Je n'ai pas réussi de manière récursive.
+*/
+func suite(n uint) (un uint) {
+	if n == 0 {
+		return un
+	} else {
+		un = 3*suite(n-1) + 5
+	}
+	return un
+}

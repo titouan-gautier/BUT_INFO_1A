@@ -1,0 +1,245 @@
+
+@font-face {
+    font-family: "Poppins" ;
+    src: url("/police/poppins-v15-latin-regular.woff"),
+         url("/police/poppins-v15-latin-regular.woff2");
+}
+
+body {
+    --bw100: #181743 ;
+    --bw200: #3F474B ;
+    --bw300: #7F8A8F ;
+    --bw400: #BEC7CC ;
+    --bw500: #DDE6EA ;
+    --bw600: #F3F8FB ;
+    --bw700: #FFFFFF ;
+   
+    --burple100:#2407D8 ;
+    --burple200:#5034FF;
+    --burple300:#6D6AF4;
+    --burple400:#BEBDFF;
+    --burple500:#DFE8FF;
+    
+    --green100:#1877BC;
+    --green200:#0DB8AE;
+    --green300:#4EDBD2;
+    --green400:#9BFFF9;
+    --green500:#D9FFFD;
+
+    --red100: #EE1313;
+    --red200: #FD5D5D;
+    --red300: #FF9E9E;
+    --red400: #FFD4D4;
+
+    --greena100:#039700;
+    --greena200:#2AD027;
+    --greena300:#92F590;
+    --greena400:#C7FEC6;
+
+    --yellow100:#EA7E00;
+    --yellow200:#FFA53C;
+    --yellow300:#FFC27A;
+    --yellow400:#FFEBC5;
+}
+
+h1 {
+    font-family: Poppins;
+    font-style: normal;
+}
+
+h2 {
+    color: #7F8A8F;
+    font-family: "Poppins";
+}
+
+.couleur {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    justify-content: left;
+    
+}
+.bw100 {
+    background-color: var(--bw100)
+}
+.bw200 {
+    background-color: var(--bw200)
+}
+.bw300 {
+    background-color: var(--bw300) 
+}
+.bw400 {
+    background-color: var(--bw400);
+}
+.bw500 {
+    background-color: var(--bw500) ;
+}
+.bw600 {
+    background-color: var(--bw600);
+}
+.bw700 {
+    background-color: var(--bw700);
+}
+.burple100 {
+    background-color: var(--burple100)
+}
+.burple200 {
+    background-color: var(--burple200)
+}
+.burple300 {
+    background-color: var(--burple300)
+}
+.burple400 {
+    background-color: var(--burple400)
+}
+.burple500 {
+    background-color: var(--burple500)
+}
+.green100 {
+    background-color: var(--green100);
+}
+.green200 {
+    background-color: var(--green200);
+}
+.green300 {
+    background-color: var(--green300);
+}
+.green400 {
+    background-color: var(--green400);
+}
+.green500 {
+    background-color: var(--green500);
+}
+
+/* Alert Colors */
+
+.red100 {
+    background-color: var(--red100);
+}
+.red200 {
+    background-color: var(--red200);
+}
+.red300 {
+    background-color: var(--red300);
+}
+.red400 {
+    background-color: var(--red400);
+}
+.greena100 {
+    background-color: var(--greena100);
+}
+.greena200 {
+    background-color: var(--greena100);
+}
+.greena300 {
+    background-color: var(--greena100);
+}
+.greena400 {
+    background-color: var(--greena100);
+}
+.yellow100 {
+    background-color: var(--yellow100);
+}
+.yellow200 {
+    background-color: var(--yellow200);
+}
+.yellow300 {
+    background-color: var(--yellow300);
+}
+.yellow400 {
+    background-color: var(--yellow400);
+}
+
+
+/* Bouton */
+button {
+
+}
+
+.hbutton {
+    font-family: "Poppins",serif;
+}
+
+.large {
+    
+    border-radius: 40px;
+    border: none;
+    color: var(--bw700);
+    
+    padding: 24px 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px ;
+    width: 194px;
+    height: 84px;
+
+
+    transition: all case-in-out 125ms;
+}
+
+.medium {
+    
+    border-radius: 32px;
+    border: none;
+    color: var(--bw700);
+    
+    padding: 20px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 157px;
+    height: 70px;
+}
+
+.small {
+    
+    border-radius: 28px;
+    border: none;
+    color: var(--bw700);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px ;
+    width: 127px;
+    height: 48px;
+}
+
+.primary {
+    background: var(--burple200) ;
+}
+.primary:hover {
+    background-color: var(--burple100);
+}
+
+.secondary {
+    background-color: var(--bw700);
+    color: var(--bw100);
+    border: 3px solid var(--bw100);
+}
+.secondary:hover {
+    background-color: var(--bw100);
+    color: var(--bw700);
+}
+
+.tertiary {
+    background-color: var(--burple500);
+    color: var(--burple100);
+}
+.tertiary:hover {
+    background-color: var(--burple400);
+}
+
+.quaternary {
+    background-color: var(--bw700);
+    color: var(--burple200);
+}
+.quaternary:hover {
+    color: var(--burple100);
+}
+
+.lotbouton {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
