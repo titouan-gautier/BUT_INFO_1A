@@ -1,0 +1,49 @@
+========================
+GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+Ces commandes de shell sont définies de manière interne. Saisissez « help » pour voir cette liste.
+Tapez « help nom » pour en savoir plus sur la fonction qui s'appelle « nom ».
+Utilisez « info bash » pour en savoir plus sur le shell en général.
+Utilisez « man -k » ou « info » pour en savoir plus sur les commandes qui
+ne font pas partie de cette liste.
+
+Une astérisque (*) à côté d'un nom signifie que la commande est désactivée.
+
+ job_spec [&]                                                                                                          history [-c] [-d décalage] [n] ou history -anrw [nomfichier] ou history -ps arg [arg...]
+ (( expression ))                                                                                                      if COMMANDES; then COMMANDES; [ elif COMMANDES; then COMMANDES; ]... [ else COMMANDES; ] fi
+ . nom_fichier [arguments]                                                                                             jobs [-lnprs] [jobspec ...] ou jobs -x commande [args]
+ :                                                                                                                     kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... ou kill -l [sigspec]
+ [ arg... ]                                                                                                            let arg [arg ...]
+ [[ expression ]]                                                                                                      local [option] nom[=valeur] ...
+ alias [-p] [nom[=valeur] ... ]                                                                                        logout [n]
+ bg [job_spec ...]                                                                                                     mapfile [-d délim] [-n nombre] [-O origine] [-s nombre] [-t] [-u fd] [-C callback] [-c quantum] [tableau]
+ bind [-lpvsPSVX] [-m keymap] [-f nomfichier] [-q nom] [-u nom] [-r seqtouche] [-x seqtouche:commande-shell] [seqtou>  popd [-n] [+N | -N]
+ break [n]                                                                                                             printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]                                                                                     pushd [-n] [+N | -N | rép]
+ caller [expr]                                                                                                         pwd [-LP]
+ case MOT in [MOTIF [| MOTIF]...) COMMANDES ;;]... esac                                                                read [-ers] [-a tableau] [-d delim] [-i texte] [-n ncars] [-N ncars] [-p prompt] [-t timeout] [-u fd] [nom ...]
+ cd [-L|[-P [-e]] [-@]] [rép]                                                                                          readarray [-d delim] [-n nombre] [-O origine] [-s nombre] [-t] [-u fd] [-C callback] [-c quantum] [tableau]
+ command [-pVv] commande [arg ...]                                                                                     readonly [-aAf] [nom[=valeur] ...] ou readonly -p
+ compgen [-abcdefgjksuv] [-o option] [-A action] [-G motif_glob] [-W liste_mots]  [-F fonction] [-C commande] [-X mo>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI] [-o option] [-A action] [-G motif_glob] [-W liste_mots]  [-F fonction] [-C co>  select NOM [in MOTS ... ;] do COMMANDES; done
+ compopt [-o|+o option] [-DEI] [nom ...]                                                                               set [-abefhkmnptuvxBCHP] [-o nom-option] [--] [arg ...]
+ continue [n]                                                                                                          shift [n]
+ coproc [NOM] commande [redirections]                                                                                  shopt [-pqsu] [-o] [nom_opt ...]
+ declare [-aAfFgilnrtux] [-p] [nom[=valeur] ...]                                                                       source nom_fichier [arguments]
+ dirs [-clpv] [+N] [-N]                                                                                                suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid ...]                                                                             test [expr]
+ echo [-neE] [arg ...]                                                                                                 time [-p] pipeline
+ enable [-a] [-dnps] [-f nomfichier] [nom ...]                                                                         times
+ eval [arg ...]                                                                                                        trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a nom] [commande [arguments ...]] [redirection ...]                                                      true
+ exit [n]                                                                                                              type [-afptP] nom [nom ...]
+ export [-fn] [nom[=valeur] ...] ou export -p                                                                          typeset [-aAfFgilnrtux] [-p] nom[=valeur] ...
+ false                                                                                                                 ulimit [-SHabcdefiklmnpqrstuvxPT] [limite]
+ fc [-e ename] [-lnr] [premier] [dernier] ou fc -s [motif=nouveau] [commande]                                          umask [-p] [-S] [mode]
+ fg [job_spec]                                                                                                         unalias [-a] nom [nom ...]
+ for NOM [in MOTS ... ] ; do COMMANDES; done                                                                           unset [-f] [-v] [-n] [nom ...]
+ for (( exp1; exp2; exp3 )); do COMMANDES; done                                                                        until COMMANDES; do COMMANDES; done
+ function nom { COMMANDES ; } ou nom () { COMMANDES ; }                                                                variables - Noms et significations de certaines variables du shell
+ getopts chaineopts nom [arg]                                                                                          wait [-fn] [id ...]
+ hash [-lr] [-p nomchemin] [-dt] [nom ...]                                                                             while COMMANDES; do COMMANDES; done
+ help [-dms] [motif ...]                                                                                               { COMMANDES ; }
+=========================

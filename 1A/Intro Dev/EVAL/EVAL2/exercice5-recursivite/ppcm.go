@@ -27,17 +27,17 @@ arguments qui soit égal à 0.
 func ppcm(x, y uint) (z uint) {
 	var x0 uint = x
 	var y0 uint = y
-	return oui(x,y,x0,y0)
+	return oui(x, y, x0, y0)
 }
 
-func oui(x,y,x0,y0 uint)(z uint) {
+func oui(x, y, x0, y0 uint) (z uint) {
 	if x == y {
 		return x
 	} else {
 		if x < y {
-			 z =oui(x+x0,y,x0,y0)
+			z = oui(x+x0, y, x0, y0)
 		} else {
-			z = oui(x,y+y0,x0,y0)
+			z = oui(x, y+y0, x0, y0)
 		}
 	}
 	return z

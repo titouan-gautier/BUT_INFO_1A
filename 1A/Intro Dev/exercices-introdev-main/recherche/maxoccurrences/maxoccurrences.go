@@ -17,18 +17,5 @@ entier apparaît. En cas d'égalité on choisira arbitrairement l'un des entiers
 maxoccurrences([]int{1, 2, 3, 4, 3}) = 3, 2
 */
 func maxoccurrences(t []int) (n int, occ int) {
-	var occmax int = 0
-	for i := 0; i < len(t); i++ {
-		occ = 0
-		for k := 0; k < len(t); k++ {
-			if t[i] == t[k] {
-				occ = occ + 1
-			}
-		}
-		if occmax < occ {
-			occmax = occ
-			n = t[i]
-		}
-	}
-	return n, occmax
+	return n, occ
 }

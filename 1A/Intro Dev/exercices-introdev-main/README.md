@@ -80,3 +80,77 @@ Vous pouvez faire les exercices dans l'ordre que vous voulez. Dans chaque dossie
 - piecesjaunes
 - racaman
 - souschaine
+
+### 18 octobre 2021
+
+#### recherche
+- doublons1
+- doublons3
+- doublons4
+- doublons5
+
+#### tri
+- alphabetique
+- bienrange
+- decroissant
+- valabs
+
+### 2021-2022 Test machine 1
+
+#### basiques
+- alphabet
+- calcul
+- somme
+
+#### pointeurs
+- double
+- varswitch
+
+#### recherche
+- compte (remplace occurrences, qui est similaire)
+- doublons2
+- puissant
+- recherche
+
+#### recursivite
+- suite
+
+### 2021-2022 Test machine 2
+
+basiques devient divers
+
+#### divers
+- chiffres
+
+#### pointeurs
+- add
+- copy
+
+#### recherche
+- egalite
+- recherche2
+
+#### recursivite
+- conway
+- ppcm
+- syracuse
+
+#### tri
+- tri
+- tri2
+
+### 23 novembre 2021
+
+#### fichiers
+- acrostiche
+- existe
+- lignes
+- lignes2
+
+#### recherche
+- egalite2
+
+#### recursivite
+- pgcd
+- pgcd2
+- ppcm2

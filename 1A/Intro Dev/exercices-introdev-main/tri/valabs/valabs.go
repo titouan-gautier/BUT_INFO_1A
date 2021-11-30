@@ -11,23 +11,19 @@ nombres positifs.
 - tab : un tableau d'entiers
 */
 
-func valabs(tab []int) (trier []int) {
-
-	for i := 0; i < len(tab); i++ {
-		trier = append(trier, tab[i])
-		var j int = 0
-		var v int = tab[i]
-		for j < len(trier) && trier[j] <= absolue(v) {
-			j++
+func valabs(t []int) (tri []int) {
+	var i int = 1
+	for i < len(t) {
+		v := t[i]
+		j := i - 1
+		for j >= 0 && t[j] > absolue(v) {
+			t[j+1] = t[j]
+			j--
 		}
-		for j < len(trier) {
-			tmp := trier[j]
-			trier[j] = v
-			v = tmp
-			j++
-		}
+		t[j+1] = v
+		i++
 	}
-	return trier
+	return t
 }
 
 func absolue(x int) int {

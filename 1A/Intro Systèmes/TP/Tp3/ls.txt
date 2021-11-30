@@ -1,0 +1,6 @@
+total 208
+-rw-rw-r-- 1 titouangautier titouangautier     17 nov.  23 18:37 fichier1.txt
+-rw-rw-r-- 1 titouangautier titouangautier      0 nov.  23 18:40 ls.txt
+-rwxrwxrwx 1 titouangautier titouangautier      0 nov.  19 09:07 oui.txt
+-rw-rw-r-- 1 titouangautier titouangautier     73 nov.  23 18:40 resultat.txt
+-r-------- 1 titouangautier titouangautier 202423 nov.  19 08:32 tpR1_04_3_g.pdf

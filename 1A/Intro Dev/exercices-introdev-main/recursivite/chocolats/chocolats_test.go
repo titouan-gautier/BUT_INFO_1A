@@ -5,7 +5,7 @@ import (
 )
 
 func TestPauvre(t *testing.T) {
-	if miam(3, 4, 1) != 0 {
+	if miam(3, 4, 2) != 0 {
 		t.Fail()
 	}
 }
@@ -30,6 +30,12 @@ func TestTout2(t *testing.T) {
 
 func TestTout3(t *testing.T) {
 	if miam(1000, 5, 15) != 214 {
+		t.Fail()
+	}
+}
+
+func TestTout4(t *testing.T) {
+	if miam(15, 4, 2) != 5 {
 		t.Fail()
 	}
 }

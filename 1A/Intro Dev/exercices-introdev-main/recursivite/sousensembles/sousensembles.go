@@ -21,14 +21,5 @@ La fonction sousEnsembles doit mettre en œuvre cette construction.
 sousEnsembles([]int{1, 2}) = [[] [1] [2] [1 2]] (l'ordre des ensembles et les ordres des valeurs dans les ensembles n'ont pas d'importance)
 */
 func sousEnsembles(E []int) (PE [][]int, err error) {
-	if len(PE) == 2^len(E) {
-		return PE, nil
-	} else {
-		for i := 0 ; i<len(E); i++ {
-			for j := 0 ; j<len(PE) ; j++ {
-				if PE[j]
-			}
-		}
-	}
 	return PE, err
 }

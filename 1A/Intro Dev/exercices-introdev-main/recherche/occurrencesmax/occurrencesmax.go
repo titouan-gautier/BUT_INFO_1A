@@ -17,14 +17,5 @@ apparaît. En cas d'égalité on choisira arbitrairement l'un des entiers
 occurrencesmax([]int{1, 2, 3, 4, 3}) = 4, 1
 */
 func occurrencesmax(t []int) (n int, occ int) {
-	for i := 0; i < len(t); i++ {
-		if t[i] > n {
-			n = t[i]
-			occ = 0
-		}
-		if t[i] == n {
-			occ = occ + 1
-		}
-	}
 	return n, occ
 }
