@@ -20,5 +20,17 @@ C'est à cette question que doit répondre la fonction egalite.
 */
 
 func egalite(t1, t2 []int) (egaux bool) {
+	var compte int
+	for i := 0; i < len(t1); i++ {
+		for j := 0; j < len(t2); j++ {
+			for t1[i] == t2[j] {
+				compte++
+			}
+		}
+	}
+	if compte == len(t1) && compte == len(t2) {
+		return true
+	}
+
 	return egaux
 }

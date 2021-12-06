@@ -14,5 +14,13 @@ le travail de la fonction doublons.
 */
 
 func doublons(tab []int) (ok bool) {
-	return ok
+	if len(tab) == 0 {
+		return true
+	}
+	for i := 0; i < len(tab); i++ {
+		if tab[i] != i+1 {
+			return false
+		}
+	}
+	return true
 }

@@ -300,4 +300,35 @@ button.text:hover,
 }
 
 
-/* ===== Layout ===== */
+/* ===== Header ===== */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > .gauche {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+
+header nav > ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+
+/* ===== Blog post ===== */
+
+.blog-post .posts {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 24px;
+  row-gap: 36px;
+}

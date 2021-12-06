@@ -20,5 +20,13 @@ fois chaque entier entre 1 et len(tab) et false sinon
 */
 
 func doublons(tab []int) (ok bool) {
-	return ok
+	var present []bool = make([]bool, len(tab))
+	for i := 0; i <= len(tab)+1; i++ {
+		if present[tab[i]-1] == true {
+			return false
+		} else {
+			present[tab[i]-1] = true
+		}
+	}
+	return true
 }
