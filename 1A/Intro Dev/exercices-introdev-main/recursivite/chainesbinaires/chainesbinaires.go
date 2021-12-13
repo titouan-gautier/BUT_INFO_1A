@@ -16,5 +16,7 @@ La fonction calculeChaines utilisera ce procédé (appliqué à chaque chaîne d
 calculeChaines(3) = [000 001 010 100 101] (l'ordre n'a pas d'importance)
 */
 func calculeChaines(n int) (chaines []string) {
+	
+	
 	return chaines
 }

@@ -2,41 +2,41 @@ package lib
 
 import "fmt"
 
-type Capsule struct {
-	contenu Liste_doublechainée
+type Liste struct {
+	caps *Element
 }
 
-type Liste_doublechainée struct {
-	head int
-	next *Liste_doublechainée
-	prev *Liste_doublechainée
+type Element struct {
+	v int
+	next *Element
+	prev *Element
 }
 
-func (l Liste_doublechainée) Head() int {
-	return l.head
+func (l *Liste) Head() int {
+	return l.caps.v
 }
 
-func (l Liste_doublechainée) Tail() Liste_doublechainée {
-	return *l.next
+func (l Liste) Tail() Liste {
+	return Liste{caps: l.caps.next}
 }
 
-func (l Liste_doublechainée) Prev() Liste_doublechainée {
-	return *l.prev
+func (l *Liste) Append(e int){
+	x := Element{v : e, next: l.caps, prev: nil}  
+	if l.caps != nil {
+		l.caps.prev = &x
+	}
+	l.caps = &x
 }
 
-func Append(e int, l Liste_doublechainée) Liste_doublechainée {
-	return Liste_doublechainée{head: e, next: &l, prev: nil}
+func ListeVide() Liste {
+	return Liste{nil}
 }
 
-func ListeVide() Liste_doublechainée {
-	return Liste_doublechainée{prev: nil}
+func (l Liste) VerifVide() bool {
+	return l.caps.next == nil
 }
 
-func (l Liste_doublechainée) VerifVide() bool {
-	return l.next == nil
-}
-
-func (l Liste_doublechainée) Affiche() string {
+func (l Liste) Affiche() string {
 	var s string
 	for !l.VerifVide() {
 		s = fmt.Sprint(s, "", l.Head())

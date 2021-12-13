@@ -2,10 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLog Post</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .x-card {
             background: grey;
@@ -15,41 +15,47 @@
 </head>
 <body>
     <header>
-        <div class="gauche">
-            <div class="logo">
-                <img src="img/logo.svg" alt="Logo Ojito">
+        <div class="contenu">
+            <div class="gauche">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="Logo Ojito">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/" class="button text small">Products</a></li>
+                        <li><a href="/" class="button text small">About Us</a></li>
+                        <li><a href="/" class="button text small">Contact</a></li>
+                        <li><a href="/" class="button text small">Pricing</a></li>
+                    <ul/>
+                </nav>
             </div>
-            <nav>
+            <nav class="droite">
                 <ul>
-                    <li><a href="/" class="button text small">Products</a></li>
-                    <li><a href="/" class="button text small">About Us</a></li>
-                    <li><a href="/" class="button text small">Contact</a></li>
-                    <li><a href="/" class="button text small">Pricing</a></li>
-                <ul/>
+                    <li><a href="#" class="button text small">Login</a></li>
+                    <li><a href="#" class="button secondary small">Sign Up</a></li>
+                </ul>
             </nav>
         </div>
-        <nav class="droite">
-            <ul>
-                <li><a href="#" class="button text small">Login</a></li>
-                <li><a href="#" class="button secondary small">Sign Up</a></li>
-            </ul>
-        </nav>
+        
     </header>
 
     <main class="blog-post">
-        <div class="description">*
-            <h1>OUE L4EQUIPE</h1>
-            <p>Ca dit qupoi l'équpe ?</p>
+        <div class="contenu"> 
+            <div class="description">*
+                <h1>OUE L4EQUIPE</h1>
+                <p>Ca dit qupoi l'équpe ?</p>
+            </div>
+            <div class="posts">
+                <div class="x-card"></div>
+                <div class="x-card"></div>
+                <div class="x-card"></div>
+                <div class="x-card"></div>
+                <div class="x-card"></div>
+                <div class="x-card"></div>
+            </div>
+            <div class="post"></div>
         </div>
-        <div class="posts">
-            <div class="x-card"></div>
-            <div class="x-card"></div>
-            <div class="x-card"></div>
-            <div class="x-card"></div>
-            <div class="x-card"></div>
-            <div class="x-card"></div>
-        </div>
-        <div class="post"></div>
+        
     </main>
 </body>
 </html>

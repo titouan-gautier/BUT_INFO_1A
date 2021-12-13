@@ -6,6 +6,7 @@
 
 body {
   
+  --brown:#470c08;
   --cream:#fefee2;
   --navy:#0c0466;
   --bw-100: #181743;
@@ -49,11 +50,42 @@ body {
 
 /* ===== Text ===== */
 
+.Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.Page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.Page1h2 {
+  margin-top: 50px;
+  font-size: 3em;
+}
+
+.Page2 {
+  gap: 50px;
+}
+
+.texte2 {
+  display: block;
+  color: black;
+  
+}
 
 h1 {
-    font-size: 100px;
+    font-size: 8em;
     font-style: bold;
     font-family: var(--main-font);
+    align-items: center;
 }
 
 h2 {
@@ -63,59 +95,23 @@ h2 {
     font-family: var(--main-font);
 }
 
-.Page1 {
-    background:var(--cream) ;
-    font-family: var(--main-font);
-}
-
-.Titre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom:320px ;
-    padding-top: 300px;
-}
-
-.titre2 {
+.titre {
     font-size: 4em;
     text-shadow: 2px 2px darkgrey;
 }
 
-
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    gap: 20px;
-    padding-bottom: 650px;
-    padding-top: 50px;
-    background: white;
+.logo {
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
-.p1 {
+p {
     padding: 10px 400px 20px ;
     text-align: justify;
     font-size: 20px
 }
 
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 800px;
-}
 
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 800px;
-  background: white;
-}
 
 /* ===== Button ===== */
 
@@ -221,9 +217,8 @@ button.text:hover,
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #470c08;
+    background-color: var(--brown);
     padding-bottom: 10px;
-    border-radius: 24px;
 }
 
 header > .gauche {
@@ -242,4 +237,80 @@ header nav > ul {
 
 header ul {
     list-style-type: none;
+}
+
+/* ===== Header ===== */
+
+
+.blog-post .posts {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 24px;
+  row-gap: 36px;
+}
+
+.contenu {
+  width: 1000px;
+  margin: auto;
+}
+
+.x-card {
+  background: grey;
+  height: 200px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.input label {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--bw-100);
+}
+
+.input input {
+  /* Désactive la bordure par défaut du navigateur */
+  outline: none;
+}
+
+.input input::placeholder {
+  color: var(--bw-400);
+}
+
+/* Lorsque le placeholder est affiché
+   = lorsque le champ est vide */
+.input input:placeholder-shown {
+  border: 3px solid black /*var(--burple-400)*/;
+}
+
+/* Lorsque le placeholder est n'est pas affiché
+   = lorsque le champ est rempli */
+.input input:not(:placeholder-shown) {
+  border: 3px solid blue /*var(--burple-300)*/;
+}
+
+/* Champ rempli valid, sans focus */
+.input input:not(:placeholder-shown):valid:not(:focus) {
+  border: 3px solid green /*var(--xxx)*/;
+}
+
+/* Champ rempli invalid, sans focus */
+.input input:not(:placeholder-shown):invalid:not(:focus) {
+  border: 3px solid red /*var(--xxx)*/;
+}
+
+.input .helper {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--bw-300);
 }

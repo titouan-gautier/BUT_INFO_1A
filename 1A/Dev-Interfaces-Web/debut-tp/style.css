@@ -301,13 +301,15 @@ button.text:hover,
 
 
 /* ===== Header ===== */
-
-header {
-  display: flex;
-  justify-content: space-between;
+@media screen and (min-width: 500px) {
+  header .contenu {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-header > .gauche {
+
+header .gauche {
   display: flex;
   gap: 56px;
   align-items: center;
@@ -328,7 +330,23 @@ header ul {
 
 .blog-post .posts {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(1,1fr);
   column-gap: 24px;
   row-gap: 36px;
+}
+
+.contenu {
+  width: 1000px;
+  margin: auto;
+}
+
+.x-card {
+  background: grey;
+  height: 200px;
+}
+
+@media screen and (min-width: 500px) {
+  .blog-post .posts {
+    grid-template-columns: repeat(3,1fr);
+  }
 }

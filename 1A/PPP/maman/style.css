@@ -1,0 +1,27 @@
+body {
+    --main-font: Ballon, arial, sans-serif;
+    --scn-font: Poppins, arial, sans-serif;
+    background: url(img/LhoxSBy.jpg);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--main-font);
+    font-size: 10em;
+    text-align: justify-all;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: var(--scn-font);
+    font-size: 5em;
+    text-align: justify-all;
+}
+
+.img {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Ballon';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/Balloon\ Party.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/Poppins-SemiBold.ttf) format('woff2');
+}
