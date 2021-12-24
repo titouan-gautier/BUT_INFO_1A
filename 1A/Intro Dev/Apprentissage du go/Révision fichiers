@@ -1,0 +1,32 @@
+fichier :
+
+importer : os, log , bufio , fmt
+
+variable fichier: var myFile *os.File
+
+créer fichier : myFile, err = os.Create("monfichier")
+
+fermer fichier : err = myFile.Close()
+
+toujours vérifier l'erreur : if err != nil {
+								log.Fatal(err)
+							{
+							
+écrire dans un fichier : fmt.Fprint(my,File,"mot")
+
+lire des lignes sur un fichier : var nbLus, entier string
+								 var chaine string
+								 nbLus, err = fmt.Fscanln(myFile,&entier,&chaines)
+								 log.Print(nbLus)
+							
+							
+Lire toutes les lignes d'un fichier : var scanner *bufio.Scanner
+									  scanner = bufio.NewScanner(myFile)
+									  for scanner.Scan() {
+										  log.Print("Je viens de lire : ", scanner.Text())
+									  }
+									  if scanner.Err() != nil {
+										  log.Fatal(scanner.Err())
+									  }
+									  
+									  
