@@ -298,55 +298,40 @@ button.text:hover,
   line-height: 12px;
   color: var(--bw-300);
 }
-
-
-/* ===== Header ===== */
-@media screen and (min-width: 500px) {
-  header .contenu {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-
-header .gauche {
-  display: flex;
-  gap: 56px;
-  align-items: center;
-}
-
-header nav > ul {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-}
+ /*header */
 
 header ul {
   list-style-type: none;
 }
 
+header > .droite > ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
 
-/* ===== Blog post ===== */
+header > .gauche {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+
+header > .gauche > nav > ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Blog post */
 
 .blog-post .posts {
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(3,1fr);
   column-gap: 24px;
   row-gap: 36px;
-}
-
-.contenu {
-  width: 1000px;
-  margin: auto;
-}
-
-.x-card {
-  background: grey;
-  height: 200px;
-}
-
-@media screen and (min-width: 500px) {
-  .blog-post .posts {
-    grid-template-columns: repeat(3,1fr);
-  }
 }
