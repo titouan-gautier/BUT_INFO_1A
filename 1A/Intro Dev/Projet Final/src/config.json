@@ -1,0 +1,16 @@
+{
+	"WindowTitle": "Project particles",
+	"WindowSizeX": 800,
+  	"WindowSizeY": 600,
+	"ParticleImage": "assets/etoile.png",
+	"Debug": true,
+	"InitNumParticles": 1000,
+	"RandomSpawn": false,
+	"SpawnX": 400,
+	"SpawnY": 300,
+	"SpawnRate":2,
+	"SlowSpeed": false,
+	"NormalSpeed": true,
+	"HighSpeed": false
+
+}
