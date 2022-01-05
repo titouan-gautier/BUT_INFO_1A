@@ -143,6 +143,11 @@ button.textb,
   background: none;
   color: var(--accent);
   border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 button.text,
@@ -150,5 +155,10 @@ button.text,
   background: none;
   color: var(--blue1);
   border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
 }
 

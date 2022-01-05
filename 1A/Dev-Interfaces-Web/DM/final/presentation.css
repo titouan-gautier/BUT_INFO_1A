@@ -50,19 +50,21 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 5%;
-    gap: 10px;
+    gap: 60px;
 }
 
-.presentation > .titre > h1 {
+.haut > h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
     line-height: 56px;
-    color: var(--blue1);
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-.presentation > .desc {
+.haut > .desc {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -72,8 +74,81 @@ body {
     color: var(--blue2);
 }
 
-.presentation > .image {
+.image {
+    display: block;
+}
+
+.info {
     display: flex;
-    margin: auto;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    margin-top: 3%;
+    gap: 20px
+
+}
+
+.info > .gauche {
+    display: flex;
+    flex-direction: column;
+}
+
+.info >.gauche > h3  {
+    text-align: right ;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: var(--blue1);
+    
+}
+
+.info >.gauche > p  {
+    text-align: right;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+
+    color: var(--blue2);
+    
+}
+
+.info > .droite > p {
+    text-align: left;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+
+    color: var(--blue2);
+}
+
+.info > .droite > h3 {
+    text-align: left;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: var(--blue1);
+}
+
+.info > hr {
+    width: 1px;
+    height: 25px;
+    vertical-align: text-top;
+}
+
+.presentation > .image {
+    gap: 1000px;
 }

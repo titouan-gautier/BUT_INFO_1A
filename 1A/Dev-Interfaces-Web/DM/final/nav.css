@@ -60,7 +60,6 @@ header > .droite > ul {
 header > .gauche {
     display: flex;
     align-items: center;
-    border-right: 50px;
 }
   
 header > .gauche > nav > ul {
@@ -71,7 +70,7 @@ header > .gauche > nav > ul {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 1.5% 30% 1.5% 30%;
+    margin: 1.5% 26% 1.5% 26%;
 }
 
 .gauche > h2 {
@@ -87,4 +86,5 @@ header {
 .line {
     width: 100%;
     height: 1px;
+}
 }
