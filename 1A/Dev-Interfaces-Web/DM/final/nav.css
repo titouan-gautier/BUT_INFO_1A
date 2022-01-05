@@ -1,0 +1,90 @@
+body {
+    font-family: Poppins;
+    font-style: normal;
+
+        --bw100: #181743 ;
+        --bw200: #3F474B ;
+        --bw300: #7F8A8F ;
+        --bw400: #BEC7CC ;
+        --bw500: #DDE6EA ;
+        --bw600: #F3F8FB ;
+        --bw700: #FFFFFF ;
+       
+        --burple100:#2407D8 ;
+        --burple200:#5034FF;
+        --burple300:#6D6AF4;
+        --burple400:#BEBDFF;
+        --burple500:#DFE8FF;
+        
+        --green100:#1877BC;
+        --green200:#0DB8AE;
+        --green300:#4EDBD2;
+        --green400:#9BFFF9;
+        --green500:#D9FFFD;
+    
+        --red100: #EE1313;
+        --red200: #FD5D5D;
+        --red300: #FF9E9E;
+        --red400: #FFD4D4;
+    
+        --greena100:#039700;
+        --greena200:#2AD027;
+        --greena300:#92F590;
+        --greena400:#C7FEC6;
+    
+        --yellow100:#EA7E00;
+        --yellow200:#FFA53C;
+        --yellow300:#FFC27A;
+        --yellow400:#FFEBC5;
+
+        --blue1: #141C3A;
+        --blue2:#535E88;
+        --blue3:#DCDCDE;
+        --blue4:#F9FBFD;
+
+        --accent: #8428F8;
+    
+}
+
+header ul {
+    list-style-type: none;
+  }
+  
+header > .droite > ul {
+    display: flex;
+    gap: 37.8px;
+    align-items: center;
+    flex-direction: row;
+}
+  
+header > .gauche {
+    display: flex;
+    align-items: center;
+    border-right: 50px;
+}
+  
+header > .gauche > nav > ul {
+    display: flex;
+    align-items: center;
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5% 30% 1.5% 30%;
+}
+
+.gauche > h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+}

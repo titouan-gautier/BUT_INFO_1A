@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* ===== Variables ===== */
+body {
+  /* Colors */
+  --bw-100: #181743;
+  --bw-200: #3f474b;
+  --bw-300: #7f8a8f;
+  --bw-400: #bec7cc;
+  --bw-500: #dde6ea;
+  --bw-600: #f3f8fb;
+  --bw-700: #ffffff;
+
+  --burple-100: #271e64;
+  --burple-200: #5034ff;
+  --burple-300: #bebdff;
+  --burple-400: #6d6af4;
+  --burple-500: #dfe8ff;
+
+  --green-100: #1877bc;
+  --green-200: #0db8ae;
+  --green-300: #4edbd2;
+  --green-400: #9bfff9;
+  --green-500: #d9fffd;
+
+  --alert-red-100: #ee1313;
+  --alert-red-200: #fd5d5d;
+  --alert-red-300: #ff9e9e;
+  --alert-red-400: #ffd4d4;
+
+  --alert-green-100: #039700;
+  --alert-green-200: #2ad027;
+  --alert-green-300: #92f590;
+  --alert-green-400: #c7fec6;
+
+  --alert-yellow-100: #ea7e00;
+  --alert-yellow-200: #ffa53c;
+  --alert-yellow-300: #ffc27a;
+  --alert-yellow-400: #ffebc5;
+
+  --blue1: #141C3A;
+  --blue2:#535E88;
+  --blue3:#DCDCDE;
+  --blue4:#F9FBFD;
+
+  --accent: #8428F8;
+
+  --main-font: Poppins, arial, sans-serif;
+}
+
+/* ===== Button ===== */
+
+button,
+.button {
+  border-radius: 40px;
+  transition: all ease-in-out 125ms;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: var(--main-font);
+}
+
+button.large,
+.button.large {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+button.large:not(.text),
+.button.large:not(.text) {
+  padding: 24px 32px;
+}
+
+button.medium,
+.button.medium {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+button.medium:not(.text),
+.button.medium:not(.text) {
+  padding: 20px 24px;
+}
+
+button.small,
+.button.small {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button.small:not(.text),
+.button.small:not(.text) {
+  padding: 12px 20px;
+}
+
+button.primary,
+.button.primary {
+  background: var(--burple-200);
+  color: var(--bw-700);
+  border: none;
+}
+
+button.primary:hover,
+.button.primary:hover {
+  background: var(--burple-100);
+}
+
+button.secondary,
+.button.secondary {
+  background: var(--bw-700);
+  border: 3px solid var(--bw-100);
+  color: var(--bw-100);
+}
+
+button.secondary:hover,
+.button.secondary:hover {
+  background: var(--bw-100);
+  color: var(--bw-700);
+}
+
+button.tertiary,
+.button.tertiary {
+  background: var(--burple-500);
+  border: 3px solid var(--bw-100);
+  color: var(--burple-100);
+}
+
+button.tertiary:hover,
+.button.tertiary:hover {
+  background: var(--bw-100);
+  color: var(--bw-700);
+}
+
+button.textb,
+.button.textb {
+  background: none;
+  color: var(--accent);
+  border: none;
+}
+
+button.text,
+.button.text {
+  background: none;
+  color: var(--blue1);
+  border: none;
+}
+

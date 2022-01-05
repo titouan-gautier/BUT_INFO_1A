@@ -1,0 +1,224 @@
+body {
+    font-family: Poppins;
+    font-style: normal;
+
+        --bw100: #181743 ;
+        --bw200: #3F474B ;
+        --bw300: #7F8A8F ;
+        --bw400: #BEC7CC ;
+        --bw500: #DDE6EA ;
+        --bw600: #F3F8FB ;
+        --bw700: #FFFFFF ;
+       
+        --burple100:#2407D8 ;
+        --burple200:#5034FF;
+        --burple300:#6D6AF4;
+        --burple400:#BEBDFF;
+        --burple500:#DFE8FF;
+        
+        --green100:#1877BC;
+        --green200:#0DB8AE;
+        --green300:#4EDBD2;
+        --green400:#9BFFF9;
+        --green500:#D9FFFD;
+    
+        --red100: #EE1313;
+        --red200: #FD5D5D;
+        --red300: #FF9E9E;
+        --red400: #FFD4D4;
+    
+        --greena100:#039700;
+        --greena200:#2AD027;
+        --greena300:#92F590;
+        --greena400:#C7FEC6;
+    
+        --yellow100:#EA7E00;
+        --yellow200:#FFA53C;
+        --yellow300:#FFC27A;
+        --yellow400:#FFEBC5;
+    
+}
+
+main {
+    margin: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.inputdefault {
+    position: static;
+    width: 247px;
+    height: 46px;
+    left: 0px;
+    top: 32px;
+
+    /* BW 700 */
+    background: var(--bw700);
+    /* Burple/400 */
+    border: 1px solid var(--burple400);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 0px 10px;
+    color : var(--bw400)
+}
+
+.inputfocused {
+    position: static;
+    width: 247px;
+    height: 46px;
+    left: 0px;
+    top: 32px;
+
+    /* BW 700 */
+    background: var(--bw700);
+    /* Burple/400 */
+    border: 1px solid var(--burple200);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 0px 10px;
+    color : var(--bw400);
+
+    box-shadow: 0px 0px 3px 2px rgba(34, 73, 237, 0.3)
+}
+
+.inputfilled {
+    position: static;
+    width: 247px;
+    height: 46px;
+    left: 0px;
+    top: 32px;
+
+    /* BW 700 */
+    background: var(--bw700);
+    /* Burple/400 */
+    border: 1px solid var(--burple200);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 0px 10px;
+    color : var(--bw300);
+
+}
+
+.inputdisabled {
+    position: static;
+    width: 247px;
+    height: 46px;
+    left: 0px;
+    top: 32px;
+
+    /* BW 600 */
+    background: var(--bw600);
+    /* Burple/400 */
+    border: 1px solid var(--bw400);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 0px 10px;
+    color : var(--bw300);
+
+}
+
+.inputgreen {
+    position: static;
+    width: 247px;
+    height: 46px;
+    left: 0px;
+    top: 32px;
+
+    /* BW 700 */
+    background: var(--greena400);
+    /* Burple/400 */
+    border: 1px solid var(--greena100);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 0px 10px;
+    color : var(--bw300);
+
+}
+
+.inputred {
+    position: static;
+    width: 247px;
+    height: 46px;
+    left: 0px;
+    top: 32px;
+
+    /* BW 700 */
+    background: var(--red400);
+    /* Burple/400 */
+    border: 1px solid var(--red100);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 0px 10px;
+    color : var(--bw300);
+
+}
+
+.helpertext {
+    font-size: 12px;
+    color: var(--bw300);
+}
+
+.textin {
+    color: var(--bw100);
+}
+
+.inputfilled::placeholder {
+    color: var(--bw100);
+}
+
+.inputgreen::placeholder {
+    color: var(--bw100);
+}
+
+.inputred::placeholder {
+    color: var(--bw100); 
+}
+
+.green > .helpertext {
+    color: var(--greena100);
+}
+
+.red > .helpertext {
+    color: var(--red100);
+}

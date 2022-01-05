@@ -1,0 +1,79 @@
+body {
+    /* Colors */
+    --bw-100: #181743;
+    --bw-200: #3f474b;
+    --bw-300: #7f8a8f;
+    --bw-400: #bec7cc;
+    --bw-500: #dde6ea;
+    --bw-600: #f3f8fb;
+    --bw-700: #ffffff;
+  
+    --burple-100: #271e64;
+    --burple-200: #5034ff;
+    --burple-300: #bebdff;
+    --burple-400: #6d6af4;
+    --burple-500: #dfe8ff;
+  
+    --green-100: #1877bc;
+    --green-200: #0db8ae;
+    --green-300: #4edbd2;
+    --green-400: #9bfff9;
+    --green-500: #d9fffd;
+  
+    --alert-red-100: #ee1313;
+    --alert-red-200: #fd5d5d;
+    --alert-red-300: #ff9e9e;
+    --alert-red-400: #ffd4d4;
+  
+    --alert-green-100: #039700;
+    --alert-green-200: #2ad027;
+    --alert-green-300: #92f590;
+    --alert-green-400: #c7fec6;
+  
+    --alert-yellow-100: #ea7e00;
+    --alert-yellow-200: #ffa53c;
+    --alert-yellow-300: #ffc27a;
+    --alert-yellow-400: #ffebc5;
+  
+    --blue1: #141C3A;
+    --blue2:#535E88;
+    --blue3:#DCDCDE;
+    --blue4:#F9FBFD;
+  
+    --accent: #8428F8;
+  
+    --main-font: Poppins, arial, sans-serif;
+  }
+
+.presentation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    gap: 10px;
+}
+
+.presentation > .titre > h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--blue1);
+}
+
+.presentation > .desc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--blue2);
+}
+
+.presentation > .image {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
