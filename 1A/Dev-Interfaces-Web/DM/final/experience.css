@@ -45,108 +45,136 @@ body {
     --main-font: Poppins, arial, sans-serif;
   }
 
-.presentation {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5%;
-    margin-bottom: 7%;
-    gap: 60px;
-}
+  .titre {
+    margin-top: 6%;
+    margin-bottom: 2%;
 
-.haut > h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.haut > .desc {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
+    font-size: 26px;
     line-height: 30px;
+    
+    display: flex;
+    justify-content: center;
     text-align: center;
-    color: var(--blue2);
-}
+  }
 
-.image {
-    display: block;
-}
-
-.info {
+  .graphe {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-    gap: 20px
+    justify-content: space-evenly;
+    padding: 5% 20% 5% 20%;
+    
+  }
 
-}
+  .graphe > .gauche {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:100px;
+  }
 
-.info > .gauche {
-    display: flex;
-    flex-direction: column;
-}
+  .graphe > .droite {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 100px;
+  }
+  .graphe > .gauche > div {
+      text-align: right;
+  }
 
-.info >.gauche > h3  {
-    text-align: right ;
+  .graphe > .droite > div {
+    text-align: left;
+  }
 
+  .graphe > .gauche > div > h3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
 
-    color: var(--blue1);
-    
-}
+  }
 
-.info >.gauche > p  {
-    text-align: right;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 30px;
-
-    color: var(--blue2);
-    
-}
-
-.info > .droite > p {
-    text-align: left;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 30px;
-
-    color: var(--blue2);
-}
-
-.info > .droite > h3 {
-    text-align: left;
-
+  .graphe > .droite > div > h3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
+    
+  }
 
-    color: var(--blue1);
-}
+  .graphe > .gauche > div > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    
+    color: #535E88;
+  }
 
-.info > hr {
-    width: 1px;
-    height: 25px;
+  .graphe > .droite > div > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    
+    color: #535E88;
+  }
+
+  .milieu > hr {
     border: none;
+    width: 1px;
     background: var(--blue3);
-}
+  }
+
+  .experience > hr {
+      border: none;
+      height: 1px;
+      width: 80%;
+      margin-right: 10%;
+      margin-left: 10%;
+      background: #E5EBF2;
+  }
+
+  .gauche > .box { 
+     /* background-color: red; */
+     width: 380px;
+     height: 150px;
+  }
+
+  .droite > .box {
+      /* background: blue; */
+      width: 380px;
+      height: 150px;
+  }
+
+  .experience > .ligne {
+      flex-direction: column;
+  }
+
+  .milieu {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 10px;
+      gap: 5px;
+  }
+
+  .round {
+      width: 9px;
+      height: 9px;
+      border-radius: 100%;
+      background: var(--accent);
+  }
+
+  .ligne {
+    border: none;
+    width: 1px;
+    height: 230px;
+    background: var(--blue3)
+  }

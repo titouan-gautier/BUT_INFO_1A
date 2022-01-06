@@ -45,27 +45,34 @@ body {
     --main-font: Poppins, arial, sans-serif;
   }
 
-.presentation {
+.description {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin-top: 5%;
-    margin-bottom: 7%;
-    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 34% 5% 34%;
+    background-color: var(--blue4);
+    gap: 20px;
 }
 
-.haut > h1 {
+.description > h2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 26px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
+    color: var(--blue1);
+
 }
 
-.haut > .desc {
+.description > h2 > span {
+    color: var(--accent);
+}
+
+.description > p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -73,80 +80,4 @@ body {
     line-height: 30px;
     text-align: center;
     color: var(--blue2);
-}
-
-.image {
-    display: block;
-}
-
-.info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-    gap: 20px
-
-}
-
-.info > .gauche {
-    display: flex;
-    flex-direction: column;
-}
-
-.info >.gauche > h3  {
-    text-align: right ;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-
-    color: var(--blue1);
-    
-}
-
-.info >.gauche > p  {
-    text-align: right;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 30px;
-
-    color: var(--blue2);
-    
-}
-
-.info > .droite > p {
-    text-align: left;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 30px;
-
-    color: var(--blue2);
-}
-
-.info > .droite > h3 {
-    text-align: left;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-
-    color: var(--blue1);
-}
-
-.info > hr {
-    width: 1px;
-    height: 25px;
-    border: none;
-    background: var(--blue3);
 }
