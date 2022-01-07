@@ -60,7 +60,7 @@ body {
     text-align: center;
   }
 
-  .graphe {
+  .experience > .graphe {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -68,26 +68,26 @@ body {
     
   }
 
-  .graphe > .gauche {
+  .experience > .graphe > .gauche {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap:100px;
   }
 
-  .graphe > .droite {
+  .experience > .graphe > .droite {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 100px;
   }
-  .graphe > .gauche > div {
+  .experience >.graphe > .gauche > div {
       text-align: right;
   }
 
-  .graphe > .droite > div {
+  .experience >.graphe > .droite > div {
     text-align: left;
   }
 
-  .graphe > .gauche > div > h3 {
+  .experience > .graphe > .gauche > div > h3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -96,7 +96,7 @@ body {
 
   }
 
-  .graphe > .droite > div > h3 {
+  .experience > .graphe > .droite > div > h3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -105,7 +105,7 @@ body {
     
   }
 
-  .graphe > .gauche > div > p {
+  .experience > .graphe > .gauche > div > p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -115,7 +115,7 @@ body {
     color: #535E88;
   }
 
-  .graphe > .droite > div > p {
+  .experience > .graphe > .droite > div > p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -125,7 +125,7 @@ body {
     color: #535E88;
   }
 
-  .milieu > hr {
+  .experience > .graphe > .milieu > hr {
     border: none;
     width: 1px;
     background: var(--blue3);
@@ -140,13 +140,13 @@ body {
       background: #E5EBF2;
   }
 
-  .gauche > .box { 
+  .experience > .graphe > .gauche > .box { 
      /* background-color: red; */
      width: 380px;
      height: 150px;
   }
 
-  .droite > .box {
+  .experience > .graphe > .droite > .box {
       /* background: blue; */
       width: 380px;
       height: 150px;
@@ -156,7 +156,7 @@ body {
       flex-direction: column;
   }
 
-  .milieu {
+  .experience > .graphe > .milieu {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
