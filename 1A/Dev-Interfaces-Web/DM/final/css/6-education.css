@@ -45,10 +45,17 @@ body {
     --mainfont: Roboto, arial , sans-serif;
   }
 
+
+  .education {
+    background: var(--blue4);
+    padding-top: 2px;
+  }
+
   .education > .graphe {
       display: flex;
       flex-direction: column;
-      gap: 100px;
+      padding: 5% 17% 5% 17%;
+      gap: 30px;
   }
 
   .education > .graphe > .haut {
@@ -63,10 +70,41 @@ body {
     gap: 30px;
 }
 
-  .education > .graphe > .haut > .box > h3 {
+  .education > .graphe > .centre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 31px;
+  }
+
+  .education > .graphe > .haut > .box  {
     text-align: left;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
   }
 
   .education > .graphe > .bas > .box {
-}
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .education > .graphe > .bas > .box > p {
+    width: 100%;
+  }
+
+  .education > .graphe > .centre > .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 31px;
+  }
+
+  .education > .graphe > .centre > .box > hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: var(--blue3);
+
+  }
