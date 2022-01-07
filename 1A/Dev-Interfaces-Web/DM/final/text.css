@@ -43,30 +43,56 @@ body {
     --accent: #8428F8;
   
     --mainfont: Roboto, arial , sans-serif;
+  
   }
 
-  .education > .graphe {
-      display: flex;
-      flex-direction: column;
-      gap: 100px;
+  .titrenav {
+    font-family: var(--mainfont);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
   }
 
-  .education > .graphe > .haut {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 30px;
+  h1 {
+    font-family: var(--mainfont);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
   }
 
-  .education > .graphe > .bas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-}
-
-  .education > .graphe > .haut > .box > h3 {
-    text-align: left;
-    
+  h2 {
+    font-family: var(--mainfont);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    color: var(--blue1);
   }
 
-  .education > .graphe > .bas > .box {
-}
+  h3 {
+    font-family: var(--mainfont);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--blue1);
+  }
+
+  p {
+    font-family: var(--mainfont);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--blue2);  
+  }
+
+  .font {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+  }

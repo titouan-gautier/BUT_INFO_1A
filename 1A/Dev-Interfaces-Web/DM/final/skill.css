@@ -42,7 +42,7 @@ body {
   
     --accent: #8428F8;
   
-    --main-font: Roboto, arial, sans-serif;
+    --mainfont: Roboto, arial , sans-serif;
   }
 
   .skill {
@@ -94,13 +94,10 @@ body {
 
 .progress-bar > .content > h3 {
     font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 30px;
-
-    color: var();
-
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
 }
 
 .progress-bar > .content > div > p {

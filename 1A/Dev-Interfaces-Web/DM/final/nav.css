@@ -1,7 +1,4 @@
 body {
-    font-family: Poppins;
-    font-style: normal;
-
         --bw100: #181743 ;
         --bw200: #3F474B ;
         --bw300: #7F8A8F ;
@@ -44,6 +41,7 @@ body {
 
         --accent: #8428F8;
     
+        --mainfont: Roboto, arial , sans-serif;
 }
 
 header ul {

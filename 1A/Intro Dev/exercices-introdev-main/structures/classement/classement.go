@@ -45,15 +45,14 @@ type etudiant struct {
 func classement(classe []etudiant) (affichage string) {
 	var n int = 0
 	var moy float64
-	var c int = 0
+	var c int
 	for i:=0 ; i < len(classe) ; i++ {
 		if classe[i].moyenne != moy  {
 			n++
-			c++
-		} else {
-			n++
-			n = n + c
+			n = n+c
 			c = 0
+		} else {
+			c++
 		}
 		affichage += fmt.Sprint(n, ". ", classe[i].nom," ",classe[i].prenom, "\n")
 		moy = classe[i].moyenne

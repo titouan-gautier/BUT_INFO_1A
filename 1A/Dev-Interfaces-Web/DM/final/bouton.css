@@ -49,6 +49,8 @@ body {
 
   --accent: #8428F8;
 
+  --mainfont: Roboto, arial , sans-serif;
+
 }
 
 /* ===== Button ===== */
@@ -148,11 +150,6 @@ button.textb,
   background: none;
   color: var(--accent);
   border: none;
-  font-style: bold;
-  font-family: 'Roboto';
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 30px;
 }
 
 button.text,
@@ -160,10 +157,5 @@ button.text,
   background: none;
   color: var(--blue1);
   border: none;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 30px;
-  font-family: 'Roboto';
 }
 
