@@ -4,8 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/0-bouton.css" rel="stylesheet">
-    <link href="css/0-fonts.css">
+    <link href="css/0-fonts.css" rel="font/text">
     <link href="css/0-text.css" rel="stylesheet">
+    <link href="css/0-input.css" rel="stylesheet">
     <link href="css/1-nav.css" rel="stylesheet">
     <link href="css/2-presentation.css" rel="stylesheet">
     <link href="css/3-description.css" rel="stylesheet">
@@ -13,6 +14,7 @@
     <link href="css/5-skill.css" rel="stylesheet">
     <link href="css/6-education.css" rel="stylesheet">
     <link href="css/7-projet.css" rel="stylesheet">
+    <link href="css/8-contact.css" rel="stylesheet">
     <title>DM</title>
 </head>
 
@@ -26,11 +28,11 @@
         </div>
         <nav class="droite">
             <ul>
-                <li><a href="/" class="button textb smallb font">About Me</a></li>
-                <li><a href="/" class="button text small font">Experiences</a></li>
-                <li><a href="/" class="button text small font">Skills</a></li>
-                <li><a href="/" class="button text small font">Projects</a></li>
-                <li><a href="/" class="button text small font">Contact</a></li>
+                <li><a href="#about" class="button textb smallb font">About Me</a></li>
+                <li><a href="#exp" class="button text small font">Experiences</a></li>
+                <li><a href="#skill" class="button text small font">Skills</a></li>
+                <li><a href="#proj" class="button text small font">Projects</a></li>
+                <li><a href="#contact" class="button text small font">Contact</a></li>
             </ul>
         </nav>
 
@@ -42,7 +44,7 @@
    
     <main>
        
-        <div class="presentation">
+        <div class="presentation" id="about">
             <div class="haut">
                 <h1>Fullstack Developer, Google Ex-Tech Lead</h1>
                 <div class="desc">
@@ -66,13 +68,13 @@
         </div>
         
         
-        <div class="description">
-            <h2>Hi,<span class="accent"> I'm Maria</span>. Nice to meet you.</h2>
+        <div class="description" id="desc">
+            <h2>Hi,&nbsp<span> I'm Maria</span>. Nice to meet you.</h2>
             <p>Artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.</p>
         </div>
         
         
-        <div class="experience">
+        <div class="experience" id="exp">
             <h2 class="titre">EXPERIENCE</h2>
             <hr>
             <div class="graphe">
@@ -115,85 +117,69 @@
         </div>
         
         
-        <div class="skill">
+        <div class="skill" id="skill">
             <div class="head"></div>
                 <hr class="line">
                 <h2 class="titre">SKILLS</h2>
                 <hr class="line">
             <div class="bar">
                 <div class="droite">
-                    <div class="progress-bar" id="test">
-                        <div class="content">
-                            <h3>PYTHON</h3>
-                            <div id="progress">
-                                <progress max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
+                    <div class="progress-bar">
+                        <h3>PYTHON</h3>
+                        <div id="progress">
+                            <progress max="100" value="80"> 80% </progress>
+                            <p>80%</p>
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <div class="content">
-                            <h3>C++</h3>
-                            <div>
-                                <progress max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
+                        <h3>C++</h3>
+                        <div>
+                            <progress max="100" value="80"> 80% </progress>
+                            <p>80%</p>
+                        </div>
+                    </div>
+                    <div class="progress-bar">                       
+                        <h3>BACKEND</h3>
+                        <div>
+                            <progress id="bar" max="100" value="80"> 80% </progress>
+                            <p>80%</p>
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <div class="content">
-                            <h3>BACKEND</h3>
-                            <div>
-                                <progress id="bar" max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="content">
-                            <h3>FRONTEND</h3>
-                            <div>
-                                <progress id="bar" max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
-                        </div>
+                        <h3>FRONTEND</h3>
+                        <div>
+                            <progress id="bar" max="100" value="80"> 80% </progress>
+                            <p>80%</p>
+                        </div>                    
                     </div>
                 </div>
                 <div class="gauche">
                     <div class="progress-bar">
-                        <div class="content">
-                            <h3>TEAM LEADING</h3>
-                            <div>
-                                <progress id="bar" max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
+                        <h3>TEAM LEADING</h3>
+                        <div>
+                            <progress id="bar" max="100" value="80"> 80% </progress>
+                            <p>80%</p>
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <div class="content">
-                            <h3>HTML 5</h3>
-                            <div>
-                                <progress id="bar" max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
+                        <h3>HTML 5</h3>
+                        <div>
+                            <progress id="bar" max="100" value="80"> 80% </progress>
+                            <p>80%</p>
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <div class="content">
-                            <h3>CSS 3</h3>
-                            <div>
-                                <progress id="bar" max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
+                        <h3>CSS 3</h3>
+                        <div>
+                            <progress id="bar" max="100" value="80"> 80% </progress>
+                            <p>80%</p>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <div class="content">
-                            <h3>BOOTSTRAP</h3>
-                            <div>
-                                <progress class="-webkit-progress-value" id="bar" max="100" value="80"> 80% </progress>
-                                <p>80%</p>
-                            </div>
+                    <div class="progress-bar">        
+                        <h3>BOOTSTRAP</h3>
+                        <div>
+                            <progress class="-webkit-progress-value" id="bar" max="100" value="80"> 80% </progress>
+                            <p>80%</p>
                         </div>
                     </div>
                 </div>
@@ -249,7 +235,9 @@
                 </div>
             </div>
         </div>
-        <div class="projet">
+        
+        
+        <div class="projet" id="proj">
             <div class="head">
                 <hr class="line">
                 <h2>PROJECTS</h2>
@@ -265,6 +253,47 @@
                     <div class="card"><img src="img/project06.png"></div>
                 </div>
             </div>
+        </div>
+        
+        
+        <div class="contact" id="contact">
+            <div class="head">
+                <hr class="line">
+                <h2>Contact me</h2>
+                <hr class="line">
+            </div>
+            <form class="formulaire">
+                <fieldset>
+                    <div class="haut">
+                        <div class="box1">
+                            <label for="civ">Civilité *</label>
+                            <input class=" un inputdefault" id="civ" list="genre" type="text" required >
+                            <datalist id="genre">
+                                <option value="Homme"></option>
+                                <option value="Femme"></option>
+                                <option value="Autre"></option>
+                            </datalist>
+                        </div>
+                        <div class="box2">
+                            <label for="name">Nom Prénom *</label>
+                            <input class=" deux inputdefault" id="name" type="text" required>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <label for="mail">Adresse email *</label>
+                        <input class="inputdefault" type="email" id="mail" required>
+                    </div>
+                    <div class="box">
+                        <label for="title">Titre du mesage *</label>
+                        <input class="inputdefault" id="title" type="text" required>
+                    </div>
+                    <div class="box">
+                        <label for="msg">Votre message *</label>
+                        <input class="inputfilled" id="msg" type="text" required>
+                    </div>
+                </fieldset>
+                <input type="submit" class="button primary medium" value="Envoyer">
+            </form>
         </div>
     </main>
 </body>

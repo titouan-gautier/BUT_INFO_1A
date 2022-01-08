@@ -45,46 +45,80 @@ body {
     --mainfont: Roboto, arial , sans-serif;
   }
 
-header ul {
-    list-style-type: none;
-  }
-  
-header > .droite > ul {
-    display: flex;
-    gap: 37.8px;
-    align-items: center;
-    flex-direction: row;
-}
-  
-header > .gauche {
-    display: flex;
-    align-items: center;
-}
-  
-header > .gauche > nav > ul {
-    display: flex;
-    align-items: center;
-}
-  
-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 1.5% 26% 1.5% 26%;
+
+.contact {
+    margin: 3% 20% 3% 20%;
 }
 
-.gauche > h2 {
+.formulaire > .button {
+    margin-top: 15px;
+}
+
+.contact > .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 40px;
+}
+
+.formulaire > fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+}
+
+.formulaire > fieldset >.haut {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.formulaire > fieldset > .haut > .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.formulaire > fieldset > .haut > .box1  {
+    width: 20%;
+}
+
+.formulaire > fieldset > .haut > .box2  {
+    width: 80%;
+}
+
+.formulaire > fieldset > .haut > div > .deux {
+    width: 100%;
+
+}
+
+.formulaire > fieldset > .haut > div > .un {
+    width: 100%;
+}
+
+.formulaire > fieldset > .box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.formulaire > fieldset > .haut > div > label {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1A1A1A
 }
 
-.line {
-    width: 100%;
-    height: 1px;
-    border: none;
-    background-color: #E5EBF2;
+.formulaire > fieldset > div > label  {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1A1A1A
 }

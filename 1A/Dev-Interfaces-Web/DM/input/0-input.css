@@ -1,48 +1,49 @@
 body {
-    font-family: Poppins;
-    font-style: normal;
-
-        --bw100: #181743 ;
-        --bw200: #3F474B ;
-        --bw300: #7F8A8F ;
-        --bw400: #BEC7CC ;
-        --bw500: #DDE6EA ;
-        --bw600: #F3F8FB ;
-        --bw700: #FFFFFF ;
-       
-        --burple100:#2407D8 ;
-        --burple200:#5034FF;
-        --burple300:#6D6AF4;
-        --burple400:#BEBDFF;
-        --burple500:#DFE8FF;
-        
-        --green100:#1877BC;
-        --green200:#0DB8AE;
-        --green300:#4EDBD2;
-        --green400:#9BFFF9;
-        --green500:#D9FFFD;
-    
-        --red100: #EE1313;
-        --red200: #FD5D5D;
-        --red300: #FF9E9E;
-        --red400: #FFD4D4;
-    
-        --greena100:#039700;
-        --greena200:#2AD027;
-        --greena300:#92F590;
-        --greena400:#C7FEC6;
-    
-        --yellow100:#EA7E00;
-        --yellow200:#FFA53C;
-        --yellow300:#FFC27A;
-        --yellow400:#FFEBC5;
-    
-}
-
-main {
-    margin: 20px;
-}
-
+    /* Colors */
+    --bw-100: #181743;
+    --bw-200: #3f474b;
+    --bw-300: #7f8a8f;
+    --bw-400: #bec7cc;
+    --bw-500: #dde6ea;
+    --bw-600: #f3f8fb;
+    --bw-700: #ffffff;
+  
+    --burple-100: #271e64;
+    --burple-200: #5034ff;
+    --burple-300: #bebdff;
+    --burple-400: #6d6af4;
+    --burple-500: #dfe8ff;
+  
+    --green-100: #1877bc;
+    --green-200: #0db8ae;
+    --green-300: #4edbd2;
+    --green-400: #9bfff9;
+    --green-500: #d9fffd;
+  
+    --alert-red-100: #ee1313;
+    --alert-red-200: #fd5d5d;
+    --alert-red-300: #ff9e9e;
+    --alert-red-400: #ffd4d4;
+  
+    --alert-green-100: #039700;
+    --alert-green-200: #2ad027;
+    --alert-green-300: #92f590;
+    --alert-green-400: #c7fec6;
+  
+    --alert-yellow-100: #ea7e00;
+    --alert-yellow-200: #ffa53c;
+    --alert-yellow-300: #ffc27a;
+    --alert-yellow-400: #ffebc5;
+  
+    --blue1: #141C3A;
+    --blue2:#535E88;
+    --blue3:#DCDCDE;
+    --blue4:#F9FBFD;
+  
+    --accent: #8428F8;
+  
+    --mainfont: Roboto, arial , sans-serif;
+  }
 .input {
     display: flex;
     flex-direction: row;
@@ -51,26 +52,21 @@ main {
 }
 
 .inputdefault {
-    position: static;
-    width: 247px;
-    height: 46px;
-    left: 0px;
-    top: 32px;
-
     /* BW 700 */
-    background: var(--bw700);
+    background: var(--bw-700);
     /* Burple/400 */
-    border: 1px solid var(--burple400);
+    border: 1px solid #949494;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 4px;
 
     flex: none;
     order: 0;
     flex-grow: 0;
     font-size: 16px;
     line-height: 15px;
-    padding: 0px 10px;
-    color : var(--bw400)
+    color : var(--bw400);
+
+    height: 46px;
 }
 
 .inputfocused {
@@ -99,26 +95,23 @@ main {
 }
 
 .inputfilled {
-    position: static;
-    width: 247px;
-    height: 46px;
-    left: 0px;
-    top: 32px;
-
     /* BW 700 */
     background: var(--bw700);
     /* Burple/400 */
-    border: 1px solid var(--burple200);
+    border: 1px solid #949494;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 4px;
+
+    font-size: 16px;
+    line-height: 15px;
+    color : var(--bw300);
+
+    height: 100px;
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    font-size: 16px;
-    line-height: 15px;
-    padding: 0px 10px;
-    color : var(--bw300);
+    margin: 6px 0px;
 
 }
 

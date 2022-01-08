@@ -41,15 +41,14 @@ body {
     --blue4:#F9FBFD;
   
     --accent: #8428F8;
-    --mainfont: Roboto, arial , sans-serif;
   
-}
-
+    --mainfont: Roboto, arial , sans-serif;
+  }
 .presentation {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-bottom: 7%;
     gap: 60px;
 }
@@ -101,7 +100,7 @@ body {
 
 .info > hr {
     width: 1px;
-    height: 25px;
+    height: 1.7em;
     border: none;
     background: var(--blue3);
 }
