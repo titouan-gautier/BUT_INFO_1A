@@ -1,0 +1,132 @@
+
+
+.contact {
+    margin-bottom: 9%;
+}
+
+.formulaire {
+    margin: 0% 20%;
+}
+.formulaire > .button {
+    margin-top: 15px;
+}
+
+.headc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4% 0%;
+}
+
+.formulaire > fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+}
+
+.formulaire > fieldset >.haut {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.formulaire > fieldset > .haut > .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.formulaire > fieldset > .haut > .box1   {
+    width: 20%;
+}
+
+.formulaire > fieldset > .haut > .box2  {
+    width: 80%;
+}
+
+.formulaire > fieldset > .haut > div > .deux {
+    width: 100%;
+
+}
+
+.formulaire > fieldset > .haut > div > .un {
+    width: 100%;
+}
+
+.formulaire > fieldset > .box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.formulaire > fieldset > .box > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.formulaire > fieldset > .box > div > img {
+    visibility: visible;
+}
+
+.formulaire > fieldset > .haut > div > label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--colorinput)
+}
+
+.formulaire > fieldset > div > label  {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--colorinput)
+}
+
+input:invalid {
+    background: var(--alert-red-400);
+    border: 1px solid var(--alert-red-100);
+}
+
+/* input:valid {
+    background: var(--alert-green-400);
+    border: 1px solid var(--alert-green-100);
+}
+ */
+select:invalid {
+    background: var(--alert-red-400);
+    border: 1px solid var(--alert-red-100);
+}
+
+/* select:valid {
+    background: var(--alert-green-400);
+    border: 1px solid var(--alert-green-100);
+} */
+
+textarea:invalid {
+    background: var(--alert-red-400);
+    border: 1px solid var(--alert-red-100);
+}
+
+/* textarea:valid {
+    background: var(--alert-green-400);
+    border: 1px solid var(--alert-green-100);
+} */
+
+textarea {
+    resize: none;
+    writing-mode: horizontal-tb;
+}
+
+#msg {
+    padding: 6px 40% 6px 6px;
+}
+

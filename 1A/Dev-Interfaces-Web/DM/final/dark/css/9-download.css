@@ -1,0 +1,17 @@
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0%;
+    background: var(--blue4);
+}
+
+.download > button {
+  font-family: var(--mainfont);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    color: var(--blue1);
+}

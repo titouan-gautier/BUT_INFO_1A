@@ -1,0 +1,77 @@
+
+  .experience > h2 {
+
+  }
+
+  .experience > .graphe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 7% 20% 4% 20%;
+    
+  }
+
+  .experience > .graphe > .gauche {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 112px;
+  }
+
+  .experience > .graphe > .droite {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 112px;
+  }
+  .experience >.graphe > .gauche > div {
+      text-align: right;
+  }
+
+  .experience >.graphe > .droite > div {
+    text-align: left;
+  }
+
+
+
+  .experience > .graphe > .milieu > hr {
+    border: none;
+    width: 1px;
+    background: var(--blue3);
+  }
+
+  .experience > .graphe > .gauche > .box { 
+     /* background-color: red; */
+     width: 380px;
+     height: 150px;
+  }
+
+  .experience > .graphe > .droite > .box {
+      /* background: blue; */
+      width: 380px;
+      height: 150px;
+  }
+
+  .experience > .ligne {
+      flex-direction: column;
+  }
+
+  .experience > .graphe > .milieu {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 10px;
+      gap: 11px;
+  }
+
+  .round {
+      width: 9px;
+      height: 9px;
+      border-radius: 100%;
+      background: var(--accent);
+  }
+
+  .ligne {
+    border: none;
+    width: 1px;
+    height: 230px;
+  }

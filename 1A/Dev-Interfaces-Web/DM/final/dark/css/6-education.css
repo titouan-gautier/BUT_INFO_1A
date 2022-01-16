@@ -1,0 +1,66 @@
+
+
+  .education {
+    background: var(--blue4);
+    padding-top: 1px;
+  }
+
+
+
+  .education > .graphe {
+      display: flex;
+      flex-direction: column;
+      padding: 5% 17% 7% 17%;
+      gap: 30px;
+  }
+
+  .education > .graphe > .haut {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+  }
+
+  .education > .graphe > .bas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+  .education > .graphe > .centre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 31px;
+  }
+
+  .education > .graphe > .haut > .box  {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .education > .graphe > .bas > .box {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .education > .graphe > .bas > .box > p {
+    width: 95%;
+  }
+
+  .education > .graphe > .centre > .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 31px;
+  }
+
+  .education > .graphe > .centre > .box > hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: var(--blue3);
+
+  }

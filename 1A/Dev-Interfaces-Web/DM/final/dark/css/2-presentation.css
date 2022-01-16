@@ -1,0 +1,68 @@
+
+
+.presentation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    gap: 78.78px;
+}
+
+.presentation > .haut {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.haut > .desc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--blue2);
+}
+
+.image {
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    gap: 20px
+
+}
+
+.info > .gauche {
+    display: flex;
+    flex-direction: column;
+}
+
+.info >.gauche > .hs  {
+    text-align: right ;
+    color: var(--blue7);
+}
+
+.info >.gauche > p  {
+    text-align: right;
+}
+
+.info > .droite > p {
+    text-align: left;
+}
+
+.info > .droite > .hs {
+    text-align: left;
+    color: var(--blue7);
+}
+
+.linev {
+    height: 27px;
+    border: none;
+    width: 1px;
+}
