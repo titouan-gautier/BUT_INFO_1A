@@ -1,3 +1,9 @@
 [submodule "Semestre1/SAE/SAE - Dev/grp12_gautier-titouan_manson-luna_rosaclot-jules"]
 	path = Semestre1/SAE/SAE - Dev/grp12_gautier-titouan_manson-luna_rosaclot-jules
 	url = https://gitlab.univ-nantes.fr/but/2021-2022/r101/s101/tp12/grp12_gautier-titouan_manson-luna_rosaclot-jules.git
+[submodule "Semestre2/Developpement objet/dev.objets.tp1"]
+	path = Semestre2/Developpement objet/dev.objets.tp1
+	url = https://gitlab.univ-nantes.fr/iut.info1.dev.objets/dev.objets.tp1.git
+[submodule "Semestre2/Developpement objet/dev.objets.ressources"]
+	path = Semestre2/Developpement objet/dev.objets.ressources
+	url = https://gitlab.univ-nantes.fr/iut.info1.dev.objets/dev.objets.ressources.git
