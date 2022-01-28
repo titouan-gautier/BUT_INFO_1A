@@ -1,0 +1,32 @@
+<project name="Kotlin" default="compile">
+
+  <property environment="env"/>
+  <taskdef file="${env.KOTLIN_HOME}/build-tools/ant/src/org/jetbrains/jet/buildtools/ant/antlib.xml">
+    <classpath>
+      <fileset dir="${env.KOTLIN_HOME}/dist/kotlinc/lib" includes="*.jar"/>
+    </classpath>
+  </taskdef>
+
+  <property name="output" value="${basedir}/dist"/>
+
+  <target name="clean">
+    <delete dir="${output}"/>
+  </target>
+
+  <target name="compile">
+      <kotlinc src="${basedir}/src/main/kotlin/" output="${output}"/>
+  </target>
+
+  <path id="classpath.run">
+    <pathelement path="${output}/"/>
+    <pathelement path="${env.KOTLIN_HOME}/dist/kotlinc/lib/kotlin-runtime.jar"/>
+  </path>
+
+  <target name="run">
+    <java classname="namespace">
+      <sysproperty key="file.encoding" value="UTF-8"/>
+      <classpath refid="classpath.run"/>
+    </java>
+  </target>
+
+</project>
