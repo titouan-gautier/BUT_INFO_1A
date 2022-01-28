@@ -5,5 +5,5 @@ fun add(a : Int, b :Int) : Int {
 
 fun mult(a : Int, b: Int) : Int {
     println("[$a x $b]")
-    return a * a
+    return a * b
 }
