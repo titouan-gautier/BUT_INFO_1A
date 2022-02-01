@@ -18,6 +18,19 @@ répondre la fonction egalite.
 */
 
 fun egalite(tab1 : Array<Int>, tab2 : Array<Int>) : Boolean {
-    // TODO
+    var count : Int = 0
+    if (tab1.size != tab2.size) {
+        return false
+    }
+    for (i in 0 until tab1.size) {
+        for (j in 0 until tab2.size) {
+            if (tab1[i] == tab2[j]) {
+                count = count + 1
+            }
+        }
+    }
+    if (count == tab1.size) {
+        return true
+    }
     return false;
 }

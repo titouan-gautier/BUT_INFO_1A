@@ -8,7 +8,15 @@ au plus petit.
 */
 
 fun decroissant(tab : Array<Int>) {
-    // TODO : en utilisant le tri par insertion
+    for (i in 0 until tab.size) {
+        var x : Int = tab[i]
+        var j : Int = i
+        while (j > 0 && tab[j-1] < x) {
+            tab[j] = tab[j-1]
+            j = j - 1
+        }
+        tab[j] = x
+    }
     // https://fr.wikipedia.org/wiki/Tri_par_insertion
 }
 
@@ -22,7 +30,16 @@ alphabétique.
 */
 
 fun alphabetique(dico : Array<String>) {
-    //TODO : en utilisant le tri à bulles
+    for ( i in dico.size-1 downTo 1 ) {
+        for (j in 0 until i) {
+            if (dico[j+1] < dico[j]) {
+                var a = dico[j+1]
+                var b = dico[j]
+                dico[j+1] = b
+                dico[j] = a
+            }
+        }
+    }
     //https://fr.wikipedia.org/wiki/Tri_%C3%A0_bulles
     // NB : Les opérateurs de comparaison fonctionnent sur les chaines de caractères
 }

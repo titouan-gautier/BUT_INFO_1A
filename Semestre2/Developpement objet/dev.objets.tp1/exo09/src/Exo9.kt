@@ -13,8 +13,11 @@ qu'est la somme d'un tableau vide.
 */
 
 fun somme(tab : Array<Int>) : Int {
-    // TODO
-    return -1
+    var sum : Int = 0
+    for (i in 0 until tab.size) {
+        sum = sum + tab[i]
+    } 
+    return sum
 }
 
 /*
@@ -31,8 +34,12 @@ tab. Si la valeur v n'est pas présente, elle indique -1
 */
 
 fun recherche(tab : Array<Int>, v :Int) : Int {
-    // TODO
-    return -2
+    for (i in 0 until tab.size) {
+        if (tab[i] == v) {
+            return i
+        }
+    }
+    return -1
 }
 
 /*
@@ -48,8 +55,14 @@ ensemble ou non.
 
 */
 fun estEnsemble(tab : Array<Int>) : Boolean {
-    // TODO 
-    return false
+    for (i in 0 until tab.size) {
+        for (j in i+1 until tab.size) {
+            if (tab[j] == tab[i]) {
+                return false
+            }
+        }
+    }
+    return true
 }
 
 /*
@@ -67,7 +80,12 @@ La fonction modifie le tableau d'entrée et n'a donc pas de sorties.
 */
 
 fun envers(tab : Array<Int>) {
-    // TODO
+    for (i in 0 until tab.size/2) {
+        var a : Int =tab[i]
+        var b : Int = tab[(tab.size-1)-i]
+        tab[i] = b
+        tab[(tab.size-1)-i] = a
+    }
 }
 
 

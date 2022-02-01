@@ -8,6 +8,15 @@ ou pas
 @return un booléen indiquant si n est premier ou pas
 */
 fun estPremier(n : Int) : Boolean {
-    // TODO
-    return false
+    if (n > 1) {
+        for (i in 2 until n-1) {
+            if (n%i == 0) {
+                return false
+            }
+        }
+    } else {
+        return false
+    }
+    return true
+    
 }
