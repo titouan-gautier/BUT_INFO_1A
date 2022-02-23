@@ -3,10 +3,10 @@
 Dans `lib/` vous avez une classe `Vehicule` qui vous est fournie. Vous travaillerez dans `src/TestVehicule.kt`.
 
 1. Quelle est la bonne ligne de commande pour compiler `TestVehicule.kt` en utilisant `Vehicule.class` et en envoyant le resultat dans `bin/`, tout en restant dans le dossier `exo01/` ?
-kotlinc src/TestVehicule.kt -cp lib/Vehicule.class -d bin
+kotlinc src/TestVehicule.kt -cp lib -d bin
 
 2. Quelle est la bonne ligne de commande pour éxécuter `TestVehiculeKt`, tout en restant dans le dossier `exo01/` bien entendu ?
-kotlin -cp bin TestVehiculeKt
+kotlin -cp lib:bin TestVehiculeKt
 
 3. Implémentez le "scénario" suivant : 
 
