@@ -22,7 +22,11 @@ Vous y trouverez les .PDF des cours, des exemples, les sujets de TPs, etc.
 
 [TD2 : ligne de commande et reférences mémoire](TDs/td2_etu.pdf) + [sources Kotlin](https://gitlab.univ-nantes.fr/iut.info1.dev.objets/dev.objets.td2)
 
+[TD3 : Diagrammes de classes UML](TDs/td3_etu.pdf)
+
 [TP3 : implémentation de classes Koltin d'après un diagramme UML](https://gitlab.univ-nantes.fr/iut.info1.dev.objets/dev.objets.tp3)
+
+
 
 
 ## Installer Kotlin chez vous

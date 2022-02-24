@@ -8,8 +8,14 @@ qu'est la somme d'un tableau vide.
 */
 
 fun somme(tab : Array<Int>) : Int {
-    // TODO
-    return -1
+    var c : Int = 0
+    for (i in 0 until tab.size) {
+        c += tab[i]
+    }
+    if (c == null) {
+        return -1
+    }
+    return c
 }
 
 /*
@@ -22,8 +28,12 @@ tab. Si la valeur v n'est pas présente, elle indique -1
 */
 
 fun recherche(tab : Array<Int>, v :Int) : Int {
-    // TODO
-    return -10
+    for (i in 0 until tab.size) {
+        if (tab[i] == v) {
+            return i
+        }
+    }
+    return -1
 }
 
 /*
@@ -36,7 +46,12 @@ La fonction modifie le tableau d'entrée et n'a donc pas de sorties.
 */
 
 fun envers(tab : Array<Int>) {
-    // TODO
+    for (i in 0 until tab.size/2) {
+        var a : Int = tab[i]
+        var b : Int = tab[tab.size-i - 1]
+        tab[i] = b
+        tab[tab.size - i - 1] = a
+    }
 }
 
 /*
@@ -47,7 +62,7 @@ alphabétique.
 */
 
 fun alphabetique(dico : Array<String>) {
-    // TODO
+    dico.sort()
 }
 
 /*
@@ -57,7 +72,7 @@ au plus petit.
 @param tab : le tableau à trier
 */
 fun decroissant(tab : Array<Int>) {
-    // TODO
+    tab.sortDescending()
 }
 
 /* 
@@ -66,8 +81,16 @@ La fonction donne le plus grand élément contenu dans le tableau. Null si le ta
 @return  la plsu grande valeur contenue dans tab (si elle existe), null sinon
 */
 fun lePlusGrand(tab : Array<Int>) : Int? {
-    // TODO
-    return null
+    var max : Int = 0
+    if (tab == null) {
+        return null
+    }
+    for (i in 0 until tab.size) {
+        if (tab[i] > max) {
+            max = tab[i]
+        }
+    }
+    return max
 }
 
 /* 
@@ -80,8 +103,22 @@ v n'est pas obligatoirement dans tab, ca ne change rien
 */
 
 fun justePlusGrandeQue(tab : Array<Int>, v : Int) : Int? {
-    // TODO : un peu plus long à écrire
-    return null
+    var max : Int = 0
+    for (i in 0 until tab.size) {
+        if (tab[i] > v) {
+            if max < v {
+                max = tab[i]
+            }
+            else if (tab[i] < max) {
+                max = tab[i]
+            }
+        }
+    }
+    if (max == lePlusGrand(tab)) {
+        return null
+    }
+    return max
+
 }
 
 
