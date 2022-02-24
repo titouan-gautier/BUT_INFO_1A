@@ -1,4 +1,6 @@
 
+
+import kotlin.arrayOfNulls
 fun main() {
     var maSaxo = Vehicule("Saxo","rouge",4,180.0)
     println(maSaxo)
@@ -27,6 +29,8 @@ fun main() {
 
     var camion = arrayOf(voiture1,voiture2,voiture3,voiture4)
     print(afficherC(camion))
+
+    var parking : arrayOfNulls
 }
 
 fun afficherC(camion : Array<Vehicule>) {
