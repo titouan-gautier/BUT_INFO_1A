@@ -4,8 +4,11 @@ class Voiture (mod : String, coul : String,vitMax : Double) {
     var vitesseCourante : Double = 0.0
     var vitesseMaximum : Double = 0.0
     var enMarche : Boolean = false
+    
     var proprietaire : Personne?
     var parking : Parking?
+
+    var camion : Camion?
 
     init {
         modele = mod
@@ -13,15 +16,20 @@ class Voiture (mod : String, coul : String,vitMax : Double) {
         vitesseMaximum = vitMax
         proprietaire = null
         parking = null
+        camion = null
+        
     }
 
-    fun estGaree() {
-        parking != null
-    }
+    fun estGaree() = (parking != null)
 
     fun stationner(nouveauParking : Parking) {
-        this.arreter()
+        arreter()
         parking = nouveauParking
+    }
+
+    fun quitterStationnement() {
+        demarrer()
+        parking = null
     }
 
     fun acheter(acheteur : Personne) {
@@ -38,10 +46,7 @@ class Voiture (mod : String, coul : String,vitMax : Double) {
     }
 
     fun estEnMarche() : Boolean {
-        if (enMarche ==  true) {
-            return true
-        }
-        return false
+        return enMarche
     }
 
     fun repeindre(nouvelleCouleur : String) {
@@ -74,6 +79,18 @@ class Voiture (mod : String, coul : String,vitMax : Double) {
             }
         }
         return vitesseCourante
+    }
+
+    fun charger(nouveauCamion : Camion) {
+
+        camion = nouveauCamion
+
+    }
+
+    fun decharger(){
+
+        camion = null
+
     }
 
     fun afficher() {

@@ -12,13 +12,13 @@ class Parking(places : Int) {
     }
 
     fun nombreDePlacesLibres() : Int {
-        var c : Int = 0
-        for (i in 0 until stationnement.size ) {
-            if (stationnement[i] != null) {
-                c += 1
+        var count : Int = 0
+        for ( i in 0 until stationnement.size ) {
+            if (stationnement[i] == null){
+                count++
             }
         }
-        return c
+        return count
     }
 
     fun nombreDePlacesTotales() : Int {
@@ -26,17 +26,21 @@ class Parking(places : Int) {
     }
     
     fun placeLibre(numeroPlace : Int) : Boolean {
-        if (stationnement[numeroPlace] != null) {
-            return false
+        if (numeroPlace >= 0 && numeroPlace < stationnement.size){
+            if (stationnement[numeroPlace] == null ){
+                return true
+            }
         }
-        return true
+        return false
     }
 
     fun stationner(numeroPlace : Int, voitureStationnee : Voiture) : Boolean {
-        if (!placeLibre(numeroPlace)) {return false}
-        
-        stationnement[numeroPlace] = voitureStationnee
-        voitureStationnee.stationner(this)
-        return true
+        if (!(voitureStationnee.estGaree()) && placeLibre(numeroPlace)) {
+            stationnement[numeroPlace] = voitureStationnee
+            voitureStationnee.stationner(this)
+            
+            return true
+        }
+        return false
     }
 }

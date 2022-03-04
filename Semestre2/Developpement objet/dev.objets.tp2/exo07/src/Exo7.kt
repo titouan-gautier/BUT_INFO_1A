@@ -82,7 +82,7 @@ La fonction donne le plus grand élément contenu dans le tableau. Null si le ta
 */
 fun lePlusGrand(tab : Array<Int>) : Int? {
     var max : Int = 0
-    if (tab == null) {
+    if (tab.size == 0) {
         return null
     }
     for (i in 0 until tab.size) {
@@ -103,19 +103,22 @@ v n'est pas obligatoirement dans tab, ca ne change rien
 */
 
 fun justePlusGrandeQue(tab : Array<Int>, v : Int) : Int? {
-    var max : Int = 0
+    var max : Int = lePlusGrand(tab)!!
+    var index : Int = recherche(tab, v)
+    if (v == lePlusGrand(tab)) {
+        return null
+    }
+    if (index > 0) {
+        if (tab[index] > max ) {
+            return null
+        }
+    }
     for (i in 0 until tab.size) {
         if (tab[i] > v) {
-            if max < v {
-                max = tab[i]
-            }
-            else if (tab[i] < max) {
+            if (tab[i] < max) {
                 max = tab[i]
             }
         }
-    }
-    if (max == lePlusGrand(tab)) {
-        return null
     }
     return max
 

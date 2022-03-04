@@ -26,8 +26,7 @@ Vous y trouverez les .PDF des cours, des exemples, les sujets de TPs, etc.
 
 [TP3 : implémentation de classes Koltin d'après un diagramme UML](https://gitlab.univ-nantes.fr/iut.info1.dev.objets/dev.objets.tp3)
 
-
-
+[TP4 : implémentation de classes Koltin d'après un diagramme UML avec de l'héritage](https://gitlab.univ-nantes.fr/iut.info1.dev.objets/dev.objets.tp4)
 
 ## Installer Kotlin chez vous
 
