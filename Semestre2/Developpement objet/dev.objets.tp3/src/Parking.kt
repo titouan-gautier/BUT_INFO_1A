@@ -1,5 +1,3 @@
-
-
 import kotlin.arrayOfNulls
 
 class Parking(places : Int) {
