@@ -1,0 +1,3 @@
+interface Propriete {
+    // TODO
+}

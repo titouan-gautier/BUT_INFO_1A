@@ -1,4 +1,6 @@
 
+
+import kotlin.arrayOfNulls
 fun main() {
     var maSaxo = Vehicule("Saxo","rouge",4,180.0)
     println(maSaxo)
@@ -19,4 +21,20 @@ fun main() {
 
     maSaxo.arreter()
     maYaris.arreter()
+
+    var voiture1 = Vehicule("V1","couleur1",4,130.0)
+    var voiture2 = Vehicule("V2","couleur2",4,130.0)
+    var voiture3 = Vehicule("V2","couleur3",4,130.0)
+    var voiture4 = Vehicule("V3","couleur4",4,130.0)
+
+    var camion = arrayOf(voiture1,voiture2,voiture3,voiture4)
+    print(afficherC(camion))
+
+    var parking : arrayOfNulls
+}
+
+fun afficherC(camion : Array<Vehicule>) {
+    for (i in camion.indices) {
+        println(camion[i])
+    }
 }

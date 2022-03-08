@@ -1,0 +1,265 @@
+idUser,cours,notes
+1,Programmation objet,15
+1,Langage C,11.38
+1,Statistiques,9.50
+1,Bases de données,C
+2,Programmation objet,15
+2,Langage C,13.88
+2,Statistiques,13.50
+2,Bases de données,B
+3,Programmation objet,8
+3,Langage C,14.58
+3,Statistiques,9.50
+3,Bases de données,C
+4,Programmation objet,12
+4,Langage C,13.01
+4,Statistiques,8.00
+4,Bases de données,A
+5,Programmation objet,18
+5,Langage C,9.27
+5,Statistiques,8.50
+5,Bases de données,C
+6,Programmation objet,13
+6,Langage C,10.91
+6,Statistiques,11.50
+6,Bases de données,B
+7,Programmation objet,16
+7,Langage C,17.13
+7,Statistiques,13.50
+7,Bases de données,C
+8,Programmation objet,15
+8,Langage C,10.92
+8,Statistiques,13.00
+8,Bases de données,A
+9,Programmation objet,17
+9,Langage C,12.48
+9,Statistiques,16.50
+9,Bases de données,D
+10,Programmation objet,15
+10,Langage C,10.73
+10,Statistiques,12.00
+10,Bases de données,A
+11,Programmation objet,13
+11,Langage C,8.47
+11,Statistiques,11.50
+11,Bases de données,B
+12,Programmation objet,14
+12,Langage C,11.82
+12,Statistiques,9.00
+12,Bases de données,C
+13,Programmation objet,12
+13,Langage C,12.75
+13,Statistiques,12.00
+13,Bases de données,B
+14,Programmation objet,15
+14,Langage C,12.38
+14,Statistiques,8.50
+14,Bases de données,C
+15,Programmation objet,14
+15,Langage C,15.03
+15,Statistiques,19.00
+15,Bases de données,B
+16,Programmation objet,15
+16,Langage C,13.30
+16,Statistiques,9.50
+16,Bases de données,A
+17,Programmation objet,
+17,Langage C,13
+17,Statistiques,12.50
+17,Bases de données,A
+18,Programmation objet,19
+18,Langage C,14.01
+18,Statistiques,9.50
+18,Bases de données,C
+19,Programmation objet,13
+19,Langage C,12.79
+19,Statistiques,8.00
+19,Bases de données,E
+20,Programmation objet,15
+20,Langage C,16.35
+20,Statistiques,10.00
+20,Bases de données,B
+21,Programmation objet,16
+21,Langage C,17.65
+21,Statistiques,11.50
+21,Bases de données,B
+22,Programmation objet,12
+22,Langage C,15.57
+22,Statistiques,6.00
+22,Bases de données,A
+23,Programmation objet,16
+23,Langage C,12.48
+23,Statistiques,14.50
+23,Bases de données,B
+24,Programmation objet,13
+24,Langage C,12.11
+24,Statistiques,12.50
+24,Bases de données,B
+25,Programmation objet,17
+25,Langage C,13.33
+25,Statistiques,16.00
+25,Bases de données,B
+26,Programmation objet,17
+26,Langage C,11.91
+26,Statistiques,10.00
+26,Bases de données,B
+27,Programmation objet,16
+27,Langage C,13.27
+27,Statistiques,5.00
+27,Bases de données,C
+28,Programmation objet,14
+28,Langage C,10.86
+28,Statistiques,10.00
+28,Bases de données,B
+29,Programmation objet,14
+29,Langage C,7.40
+29,Statistiques,8.50
+29,Bases de données,B
+30,Programmation objet,13
+30,Langage C,12.30
+30,Statistiques,15.00
+30,Bases de données,A
+31,Programmation objet,15
+31,Langage C,13.56
+31,Statistiques,11.00
+31,Bases de données,B
+32,Programmation objet,13
+32,Langage C,12.83
+32,Statistiques,9.50
+32,Bases de données,B
+33,Programmation objet,10
+33,Langage C,7.20
+33,Statistiques,8.00
+33,Bases de données,B
+34,Programmation objet,14
+34,Langage C,13.72
+34,Statistiques,8.50
+34,Bases de données,C
+35,Programmation objet,18
+35,Langage C,8.58
+35,Statistiques,10.00
+35,Bases de données,B
+36,Programmation objet,13
+36,Langage C,13.44
+36,Statistiques,7.00
+36,Bases de données,C
+37,Programmation objet,15
+37,Langage C,11.15
+37,Statistiques,12.00
+37,Bases de données,B
+38,Programmation objet,15
+38,Langage C,14.05
+38,Statistiques,6.50
+38,Bases de données,A
+39,Programmation objet,14
+39,Langage C,11.72
+39,Statistiques,14.50
+39,Bases de données,C
+40,Programmation objet,16
+40,Langage C,13.94
+40,Statistiques,18.50
+40,Bases de données,B
+41,Programmation objet,13
+41,Langage C,11.49
+41,Statistiques,7.00
+41,Bases de données,A
+42,Programmation objet,16
+42,Langage C,18.10
+42,Statistiques,18.00
+42,Bases de données,A
+43,Programmation objet,19
+43,Langage C,11.38
+43,Statistiques,9.00
+43,Bases de données,E
+44,Programmation objet,16
+44,Langage C,12.73
+44,Statistiques,16.00
+44,Bases de données,C
+45,Programmation objet,18
+45,Langage C,10.13
+45,Statistiques,14.50
+45,Bases de données,B
+46,Programmation objet,15
+46,Langage C,9.96
+46,Statistiques,13.50
+46,Bases de données,B
+47,Programmation objet,12
+47,Langage C,9.80
+47,Statistiques,10.50
+47,Bases de données,C
+48,Programmation objet,13
+48,Langage C,14.86
+48,Statistiques,9.00
+48,Bases de données,B
+49,Programmation objet,16
+49,Langage C,14.47
+49,Statistiques,12.00
+49,Bases de données,D
+50,Programmation objet,14
+50,Langage C,14.95
+50,Statistiques,14.00
+50,Bases de données,B
+51,Programmation objet,18
+51,Langage C,13.66
+51,Statistiques,14.00
+51,Bases de données,D
+52,Programmation objet,17
+52,Langage C,9.14
+52,Statistiques,12.00
+52,Bases de données,B
+53,Programmation objet,14
+53,Langage C,17.20
+53,Statistiques,12.50
+53,Bases de données,A
+54,Programmation objet,13
+54,Langage C,13.24
+54,Statistiques,
+54,Bases de données,B
+55,Programmation objet,18
+55,Langage C,8.73
+55,Statistiques,10.50
+55,Bases de données,B
+56,Programmation objet,12
+56,Langage C,13.35
+56,Statistiques,11.00
+56,Bases de données,B
+57,Programmation objet,13
+57,Langage C,14.83
+57,Statistiques,13.00
+57,Bases de données,A
+58,Programmation objet,11
+58,Langage C,9.25
+58,Statistiques,11.00
+58,Bases de données,A
+59,Programmation objet,15
+59,Langage C,13.83
+59,Statistiques,11.50
+59,Bases de données,D
+60,Programmation objet,12
+60,Langage C,12.37
+60,Statistiques,2.50
+60,Bases de données,B
+61,Programmation objet,15
+61,Langage C,11.16
+61,Statistiques,10.00
+61,Bases de données,A
+62,Programmation objet,14
+62,Langage C,6.37
+62,Statistiques,12.50
+62,Bases de données,
+63,Programmation objet,15
+63,Langage C,11.60
+63,Statistiques,9.00
+63,Bases de données,C
+64,Programmation objet,16
+64,Langage C,11.38
+64,Statistiques,9.50
+64,Bases de données,B
+65,Programmation objet,0
+65,Langage C,13.54
+65,Statistiques,9.00
+65,Bases de données,B
+66,Programmation objet,14
+66,Langage C,15.18
+66,Statistiques,13.00
+66,Bases de données,A

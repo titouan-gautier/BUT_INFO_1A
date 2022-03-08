@@ -3,6 +3,12 @@ fun main(args : Array<String>) {
 }
 
 fun estRectangle(ab : Double, ca : Double, cb : Double) : Boolean {
-	// TODO : ab^2 = ca^2 + cb^2
+	var abcarre : Double = ab^2.toInt()
+	var cacarre : Double = ca^2.toInt()
+	var cbcarre : Double = cb^2.toInt()
+
+	if (abcarre == cacarre + cbcarre) {
+		return true
+	}
 	return false
 }
