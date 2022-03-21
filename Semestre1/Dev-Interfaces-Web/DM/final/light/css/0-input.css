@@ -82,7 +82,7 @@ body {
     /* Burple/400 */
     border: 1px solid #949494;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 10px;
 
     font-size: 16px;
     line-height: 15px;
