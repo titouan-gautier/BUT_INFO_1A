@@ -1,3 +1,0 @@
-class Camion {
-    // TODO
-}

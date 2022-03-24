@@ -1,3 +1,0 @@
-interface Proprietaire  {
-    // TODO
-}

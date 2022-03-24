@@ -1,1 +1,0 @@
-dossier contenant des librairies .jar nécessaires
